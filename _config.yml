@@ -2,7 +2,7 @@
 title: One For The Road
 email: your-email@domain.com
 header-img: img/home-bg.jpg
-copyright_name: Your/Project/Corporate Name
+copyright_name: Sam Wong
 description: > # this means to ignore newlines until "baseurl:"
   "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "" # the subpath of your site, e.g. /blog
