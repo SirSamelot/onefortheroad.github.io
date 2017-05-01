@@ -1,12 +1,39 @@
 /*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
+ * Based off of Clean Blog v1.0.0 (http://startbootstrap.com)
  * Licensed under MIT (https://spdx.org/licenses/MIT)
  */
 
+ /* COLORS
+    Gray20: #333333
+    Gray40:  #666666
+    Gray60:     #999999
+    Gray80      #CCCCCC
+    Pantone Dark Blue: #325477
+    Pantone Lavender: #775496
+    Pantone Lavender Herb: #B38FB1
+    Pantone Pastel Lavender:    #DAA4C9
+    Pantone Deep Lavender:  #77529A
+    Pantone Gold Fusion: FFB100
+
+    Facebook Blue: #3b5998;
+    Google Red: #dd4b39;
+    Pinterest Red: #bd081c;
+    Whatsapp Green: #4dc247;
+*/
+
+@font-face {
+    font-family: Raleway;
+    /* change source to hosted src in production */
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    /* change source to hosted src in production */
+    src: url('../fonts/Roboto-Regular.ttf');
+}
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-family: Raleway;
+  font-size: 14px;
   color: #404040;
 }
 p {
@@ -22,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Raleway;
   font-weight: 800;
 }
 a {

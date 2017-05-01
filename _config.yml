@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: onefortheroad/onefortheroad.github.io
 twitter_username: twitter_username
 github_username:  github_username
 facebook_username:  facebook_username

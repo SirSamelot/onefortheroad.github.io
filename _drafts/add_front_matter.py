@@ -19,6 +19,7 @@ title = ftitle.replace('-', ' ').title()
 now = datetime.datetime.now()
 timestamp = now.strftime('%Y-%m-%d %X')
 date = now.strftime('%Y-%m-%d')
+img_fname = date + '-' + sys.argv[1].split('.')[0] + '.jpg'
 
 output_fname = date + '-' + markdown_fname
 output_path = '../_posts/'
@@ -27,9 +28,12 @@ output_path = '../_posts/'
 front_matter = """---
 layout: post
 title:  "{title}"
+subtitle:   "INSERT SUBTITLE"
 date:   {timestamp}
+author:     "Sam Wong"
+header-img: "img/{img_filename}"
 categories: python tutorial
----""".format(title=title, timestamp=timestamp)
+---""".format(title=title, timestamp=timestamp, img_filename=img_fname)
 
 # Read contents of current markdown file
 with open(markdown_fname, 'r') as f:
