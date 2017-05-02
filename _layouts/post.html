@@ -28,8 +28,8 @@ layout: default
 
         <hr>
 
-        <div class="row pager">
-            {% if page.previous.url %}
+        <div class="row pager justify-content-between">
+<!--             {% if page.previous.url %}
             <div class="col-md-4">
                 <a class="previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
             </div>
@@ -38,19 +38,13 @@ layout: default
             <div class="col-md-4 offset-md-4 text-right">
                 <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
             </div>
-            {% endif %}
-            <!-- <ul class="pager list-unstyled"">
+            {% endif %} -->
                 {% if page.previous.url %}
-                <li class="previous">
-                    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                </li>
+                    <a class="previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
                 {% endif %}
                 {% if page.next.url %}
-                <li class="next">
-                    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                </li>
+                    <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                 {% endif %}
-            </ul> -->
         </div>
 
         <!-- TODO: set up disqus, instructions at http://vdaubry.github.io/2014/10/19/setup-a-jekyll-blog/ -->

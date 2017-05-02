@@ -368,24 +368,21 @@ form .row:first-child .floating-label-form-group {
   color: white;
 }
 .pager {
-  margin: 2em 0;
-}
-.pager > div {
-  padding: 0;
+  margin: 1.5em 0;
 }
 .pager a {
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1em;
   font-weight: bold;
-  padding: 0.5em 0.3em;
+  padding: 0.3em 0.2em;
   background-color: white;
   border-radius: 0;
   border: 1px solid #ddd;
 }
 @media only screen and (min-width: 768px) {
   .pager a {
-    font-size: 14px;
-    padding: 15px 25px;
+    font-size: 1em;
+    padding: 1em 1.2em;
   }
 }
 .pager a:hover,
