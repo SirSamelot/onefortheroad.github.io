@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-faded navbar-custom">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
         <span class="navbar-toggler-icon"></span>
@@ -7,14 +7,14 @@
     <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a href="{{ site.baseurl }}/">Home</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
             </li>
             {% for page in site.pages %}{% if page.title %}
             {% if page.url != '/404.html' %}
             <li class="nav-item">
-                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             </li>
             {% endif %}
             {% endif %}{% endfor %}
