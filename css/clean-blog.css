@@ -73,13 +73,11 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  /*background: white;*/
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  /*z-index: 3;*/
-  /*font-family: Raleway;*/
+  z-index: 3;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
