@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Web Scraping Part 1"
+title:  "Web Scraping, Part 1"
+subtitle:   "Starring Beautiful Soup and Pandas"
 date:   2017-05-01 13:08:03
+author:     "Sam Wong"
 categories: python tutorial
 ---
 # Introduction
@@ -97,7 +99,7 @@ print(soup.prettify()[:1000])
       </noscript>
       <link href="css.php?css=xenforo,form,public&amp;style=7&amp;dir=LTR&amp;d=1492562935" rel="stylesheet"/>
       <link href="css.php?css=login_bar,mode
-    
+
 
 Better than `page.content` don't you agree?
 
@@ -132,7 +134,7 @@ print(h1_tags[0].string)
     <h1>Top Rated Beers: Canada</h1>
     ['Top Rated Beers: Canada']
     Top Rated Beers: Canada
-    
+
 
 Notice two things.  Since `find_all()` returned a list, we access the first (and in this case, only) list item with the index [0]. Also, notice the difference in outputs depending on how we accessed `h1_tags[0]`.  We'll explore this further later on.
 
@@ -156,7 +158,7 @@ print(h3_tags)
     <i class="uix_icon fa fa-book"></i>
     								Subscribe to BeerAdvocate Magazine
     							</h3>]
-    
+
 
 Since `find_all()` returns a list, we can easily iterate over the list to look at each individual tag.  This is a technique you will use often.  For example, let's print a numbered list of each `<h3>` tag:
 
@@ -180,7 +182,7 @@ for index, tag in enumerate(h3_tags):
     <i class="uix_icon fa fa-book"></i>
     								Subscribe to BeerAdvocate Magazine
     							</h3>
-    
+
 
 Wow, look how far we've come!  We went from a mash of HTML tags (the soup) and we've extracted an ordered list of specific tags.
 
@@ -221,7 +223,7 @@ print(len(soup.find_all('table')))
 ```
 
     1
-    
+
 
 Good news, there is only one `<table>` in our document.  If there were others, we would have to take care to find the one we're interested in (this technique will be covered in Part II).
 
@@ -236,7 +238,7 @@ print(len(rows))
 ```
 
     102
-    
+
 
 Wait a minute... looking in our browser, we see that there are 100 beers in the list.  Why are there 102 rows in our table?
 
@@ -248,19 +250,19 @@ print(rows[2].contents, '\n')
 print(rows[3].contents, '\n')
 ```
 
-    ['\n', <td align="left" bgcolor="#000000" colspan="4" valign="top" width="100%"><span style="color: #FFFFFF; font-weight: bold;">Top Rated Beers: Canada</span></td>, '\n'] 
-    
-    ['\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="5%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="60%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="10%">WR</td>, '\n', <td align="right" bgcolor="#F0F0F0" valign="middle" width="25%">Reviews | Ratings</td>, '\n'] 
-    
+    ['\n', <td align="left" bgcolor="#000000" colspan="4" valign="top" width="100%"><span style="color: #FFFFFF; font-weight: bold;">Top Rated Beers: Canada</span></td>, '\n']
+
+    ['\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="5%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="60%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="10%">WR</td>, '\n', <td align="right" bgcolor="#F0F0F0" valign="middle" width="25%">Reviews | Ratings</td>, '\n']
+
     ['\n', <td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top">
     <span style="font-weight:bold;color:#666666;">1</span></td>, '\n', <td align="left" class="hr_bottom_light" valign="middle">
     <a href="/beer/profile/1141/10325/"><b>PÃ©chÃ© Mortel</b></a>
     <div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/>
-    <a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, '\n', <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, '\n', <td align="right" class="hr_bottom_light" valign="top"><b>1,828</b> <span class="muted">| 5,081</span></td>, '\n'] 
-    
-    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">2</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/50803/"><b>PÃ©chÃ© Mortel En FÃ»t De Bourbon AmÃ©ricain</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.37</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>101</b> <span class="muted">| 484</span></td>] 
-    
-    
+    <a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, '\n', <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, '\n', <td align="right" class="hr_bottom_light" valign="top"><b>1,828</b> <span class="muted">| 5,081</span></td>, '\n']
+
+    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">2</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/50803/"><b>PÃ©chÃ© Mortel En FÃ»t De Bourbon AmÃ©ricain</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.37</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>101</b> <span class="muted">| 484</span></td>]
+
+
 
 Ah-ha!  The first two `<tr>` are table headers, and our beer list actually starts at index 2.  We can rewrite our `find_all()` as follow:
 
@@ -277,7 +279,7 @@ print(rows[0].contents)
     <a href="/beer/profile/1141/10325/"><b>PÃ©chÃ© Mortel</b></a>
     <div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/>
     <a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, '\n', <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, '\n', <td align="right" class="hr_bottom_light" valign="top"><b>1,828</b> <span class="muted">| 5,081</span></td>, '\n']
-    
+
 
 That's better!  `rows` is now a list of 100 table rows, each containing a single beer entry.  We now have to go down to the next level in the HTML structure and get the `<td>` tags which correspond to each column in the row.  We'll start with the first row, and later we will put this all in a loop to process every row.
 
@@ -296,7 +298,7 @@ for index, column in enumerate(col):
     <a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div>]
     2.	[<b>4.39</b>]
     3.	[<b>1,828</b>, ' ', <span class="muted">| 5,081</span>]
-    
+
 
 Excellent work!  We found all four columns, and now we can more clearly see the contents of each column.  Let's work through each column one at a time and extract the information into some easy to understand variables.
 
@@ -314,7 +316,7 @@ print(rank)
     <ipython-input-33-f24c7174ff41> in <module>()
     ----> 1 rank = int(col[0].string.strip())
           2 print(rank)
-    
+
 
     AttributeError: 'NoneType' object has no attribute 'strip'
 
@@ -387,19 +389,19 @@ beer = {
 }
 ```
 
-Time for a little review.  We've read in a single table row containing a beer, and extracted seven different values from that row.  We've cleaned up these values a bit so that they are ready for future analysis.  Finally, we stored all these values as key-value pairs in a dictinary.  Now, we just have to do this all again for the the next 99 beers.  Say what?  Well, that's where Python comes in to do the repetitive work so we don't have to.  
+Time for a little review.  We've read in a single table row containing a beer, and extracted seven different values from that row.  We've cleaned up these values a bit so that they are ready for future analysis.  Finally, we stored all these values as key-value pairs in a dictinary.  Now, we just have to do this all again for the the next 99 beers.  Say what?  Well, that's where Python comes in to do the repetitive work so we don't have to.
 
 Putting everything above together, we get:
 
 
 ```python
 beers = []  # Initialize an empty list to contain all the beer
-for row in soup.find_all('tr')[2:]: 
+for row in soup.find_all('tr')[2:]:
     col = row.find_all('td')
-    
+
     # First column
     rank = int(col[0].string.strip())
-    
+
     # Second column
     col1_a_tag = col[1].find_all('a')
     beer_name = col1_a_tag[0].string.strip()
@@ -407,13 +409,13 @@ for row in soup.find_all('tr')[2:]:
     style = col1_a_tag[2].string.strip()
     abv = col1_a_tag[2].next_sibling.strip()
     abv = float(re.findall(r"(?<![a-zA-Z:])[-+]?\d*\.?\d+", abv)[0])
-    
+
     # Third column
     score = float(col[2].string.strip())
-    
+
     # Fourth column
     rating = int(col[3].string.strip().replace(',', ''))
-    
+
     # Gather into a single dictionary
     beer = {
         'rank': rank,
@@ -424,7 +426,7 @@ for row in soup.find_all('tr')[2:]:
         'score': score,
         'rating': rating
     }
-    
+
     # Add the beer to our beer list
     beers.append(beer)
 ```
