@@ -35,10 +35,10 @@ body {
   font-family: Raleway;
   color: #404040;
 }
-/*p {
+p {
   line-height: 1.5;
   margin: 30px 0;
-}*/
+}
 p a {
   text-decoration: underline;
 }
