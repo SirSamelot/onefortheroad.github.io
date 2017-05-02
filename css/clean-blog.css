@@ -42,15 +42,14 @@ p {
 p a {
   text-decoration: underline;
 }
-/*h1,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: Raleway;
   font-weight: 800;
-}*/
+}
 a {
   color: #404040;
 }
@@ -233,18 +232,16 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  font-family: Roboto;
+  font-size: 2.2em;
+  font-weight: 900;
+  margin-top: 0.8em;
 }
 .post-preview > a > .post-subtitle {
-  margin: 0;
-  font-weight: 300;
-  margin-bottom: 10px;
+  font-size: 1.5em;
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
@@ -259,17 +256,17 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 2.5em;
   }
 }
 .section-heading {
-  font-size: 36px;
+  font-size: 2em;
   margin-top: 60px;
   font-weight: 700;
 }
 .caption {
   text-align: center;
-  font-size: 14px;
+  font-size: 1em;
   padding: 10px;
   font-style: italic;
   margin: 0;
@@ -285,12 +282,10 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-size: 14px;
   text-align: center;
   margin-bottom: 0;
 }
 .floating-label-form-group {
-  font-size: 14px;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
@@ -365,7 +360,7 @@ form .row:first-child .floating-label-form-group {
   text-transform: uppercase;
   font-size: 1em;
   font-weight: bold;
-  padding: 0.3em 0.2em;
+  padding: 0.4em 1.5em;
   background-color: white;
   border-radius: 0;
   border: 1px solid #ddd;
@@ -373,7 +368,7 @@ form .row:first-child .floating-label-form-group {
 @media only screen and (min-width: 768px) {
   .pager a {
     font-size: 1em;
-    padding: 1em 1.2em;
+    padding: 0.4em 1.5em;
   }
 }
 .pager a:hover,
