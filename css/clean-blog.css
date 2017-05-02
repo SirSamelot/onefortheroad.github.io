@@ -73,13 +73,13 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  background: white;
+  /*background: white;*/
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3;
-  font-family: Raleway;
+  /*z-index: 3;*/
+  /*font-family: Raleway;*/
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -89,9 +89,6 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
-}
-.navbar-custom .nav-link {
-  color: red;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -162,6 +159,7 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+.navbar-toggler { background-color: rgba(255,255,255,0.2); }
 .intro-header {
   margin-bottom: 50px;
 }
