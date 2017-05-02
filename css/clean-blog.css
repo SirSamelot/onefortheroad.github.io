@@ -1,3 +1,5 @@
+---
+---
 /*!
  * Based off of Clean Blog v1.0.0 (http://startbootstrap.com)
  * Licensed under MIT (https://spdx.org/licenses/MIT)
@@ -80,7 +82,7 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Raleway;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -160,14 +162,10 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+.foobar {
+   background: rgba(0, 0, 0, 0.7);
+}
 .intro-header {
-  background: no-repeat center center;
-  background-color: #808080;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   margin-bottom: 50px;
 }
 .intro-header .site-heading,
@@ -197,7 +195,7 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Raleway;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -216,13 +214,13 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Raleway;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: Raleway;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -377,7 +375,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Raleway;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
