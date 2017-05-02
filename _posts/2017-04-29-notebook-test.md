@@ -5,7 +5,8 @@ date:   2017-04-01 20:10:38 -0600
 categories: jekyll update
 ---
 ### Hello
-** This is bold text **
+**This is bold text**
+
 The next cell is in python
 
 

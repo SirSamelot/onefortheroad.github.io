@@ -368,36 +368,36 @@ form .row:first-child .floating-label-form-group {
   color: white;
 }
 .pager {
-  margin: 20px 0 0;
+  margin: 2em 0;
 }
-.pager li > a,
-.pager li > span {
-  font-family: Raleway;
+.pager > div {
+  padding: 0;
+}
+.pager a {
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  padding: 10px 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5em 0.3em;
   background-color: white;
   border-radius: 0;
+  border: 1px solid #ddd;
 }
 @media only screen and (min-width: 768px) {
-  .pager li > a,
-  .pager li > span {
+  .pager a {
     font-size: 14px;
     padding: 15px 25px;
   }
 }
-.pager li > a:hover,
-.pager li > a:focus {
+.pager a:hover,
+.pager a:focus {
   color: white;
   background-color: #0085a1;
   border: 1px solid #0085a1;
+  text-decoration: none;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
-.pager .disabled > a:focus,
-.pager .disabled > span {
+.pager .disabled > a:focus, {
   color: #808080;
   background-color: #404040;
   cursor: not-allowed;

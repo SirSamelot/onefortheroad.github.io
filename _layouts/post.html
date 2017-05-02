@@ -5,8 +5,8 @@ layout: default
 <!-- Post Header -->
 <header class="intro-header" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') center center/cover no-repeat fixed;">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="post-heading">
+        <div class="row">
+            <div class="post-heading mx-auto">
                 <h1>{{ page.title }}</h1>
                 {% if page.subtitle %}
                 <h2 class="subheading">{{ page.subtitle }}</h2>
@@ -21,11 +21,25 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-			{{ content }}
+            <div>
+			    {{ content }}
+            </div>
+        </div>
 
-            <hr>
+        <hr>
 
-            <ul class="pager">
+        <div class="row pager">
+            {% if page.previous.url %}
+            <div class="col-md-4">
+                <a class="previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+            </div>
+            {% endif %}
+            {% if page.next.url %}
+            <div class="col-md-4 offset-md-4 text-right">
+                <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+            </div>
+            {% endif %}
+            <!-- <ul class="pager list-unstyled"">
                 {% if page.previous.url %}
                 <li class="previous">
                     <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
@@ -36,7 +50,7 @@ layout: default
                     <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                 </li>
                 {% endif %}
-            </ul>
+            </ul> -->
         </div>
 
         <!-- TODO: set up disqus, instructions at http://vdaubry.github.io/2014/10/19/setup-a-jekyll-blog/ -->
