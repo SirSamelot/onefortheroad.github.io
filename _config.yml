@@ -31,3 +31,4 @@ exclude:
   - "*.ipynb"
   - "_drafts/data"
   - "less"
+  - "hi-res"
