@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Initial Example"
+title:  "A small Example"
+subtitle:   "a fancy subtitle"
 date:   2017-04-01 20:10:38 -0600
-categories: jekyll update
+author: "Sam Wong"
+categories: python tutorial
 ---
 ### Hello
 **This is bold text**
@@ -60,4 +62,4 @@ df
 
 
 
-* the line above was a table
+*the line above was a table*
