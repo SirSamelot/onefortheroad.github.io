@@ -29,22 +29,12 @@ layout: default
         <hr>
 
         <div class="row pager justify-content-between">
-<!--             {% if page.previous.url %}
-            <div class="col-md-4">
-                <a class="previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-            </div>
+            {% if page.previous.url %}
+            <a class="previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
             {% endif %}
             {% if page.next.url %}
-            <div class="col-md-4 offset-md-4 text-right">
-                <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-            </div>
-            {% endif %} -->
-                {% if page.previous.url %}
-                    <a class="previous" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                {% endif %}
-                {% if page.next.url %}
-                    <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                {% endif %}
+            <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+            {% endif %}
         </div>
 
         <!-- TODO: set up disqus, instructions at http://vdaubry.github.io/2014/10/19/setup-a-jekyll-blog/ -->
