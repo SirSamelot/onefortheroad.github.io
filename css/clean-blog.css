@@ -1,5 +1,3 @@
----
----
 /*!
  * Based off of Clean Blog v1.0.0 (http://startbootstrap.com)
  * Licensed under MIT (https://spdx.org/licenses/MIT)
@@ -35,7 +33,6 @@
 }
 body {
   font-family: Raleway;
-  font-size: 14px;
   color: #404040;
 }
 p {
