@@ -42,7 +42,7 @@ p {
 p a {
   text-decoration: underline;
 }
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -50,7 +50,7 @@ h5,
 h6 {
   font-family: Raleway;
   font-weight: 800;
-}
+}*/
 a {
   color: #404040;
 }
@@ -84,11 +84,14 @@ hr.small {
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
-.navbar-custom .nav li a {
+.navbar-custom .nav-item {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+.navbar-custom .nav-link {
+  color: red;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -365,36 +368,33 @@ form .row:first-child .floating-label-form-group {
   color: white;
 }
 .pager {
-  margin: 20px 0 0;
+  margin: 1.5em 0;
 }
-.pager li > a,
-.pager li > span {
-  font-family: Raleway;
+.pager a {
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  padding: 10px 5px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.3em 0.2em;
   background-color: white;
   border-radius: 0;
+  border: 1px solid #ddd;
 }
 @media only screen and (min-width: 768px) {
-  .pager li > a,
-  .pager li > span {
-    font-size: 14px;
-    padding: 15px 25px;
+  .pager a {
+    font-size: 1em;
+    padding: 1em 1.2em;
   }
 }
-.pager li > a:hover,
-.pager li > a:focus {
+.pager a:hover,
+.pager a:focus {
   color: white;
   background-color: #0085a1;
   border: 1px solid #0085a1;
+  text-decoration: none;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
-.pager .disabled > a:focus,
-.pager .disabled > span {
+.pager .disabled > a:focus, {
   color: #808080;
   background-color: #404040;
   cursor: not-allowed;
