@@ -162,9 +162,6 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
-.foobar {
-   background: rgba(0, 0, 0, 0.7);
-}
 .intro-header {
   margin-bottom: 50px;
 }
