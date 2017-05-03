@@ -113,15 +113,8 @@ blockquote {
 .jumbotron .site-heading,
 .jumbotron .post-heading,
 .jumbotron .page-heading {
-  /*padding: 100px 0 50px;*/
+  padding: 0px 10px;
   color: white;
-}
-@media only screen and (min-width: 768px) {
-  .jumbotron .site-heading,
-  .jumbotron .post-heading,
-  .jumbotron .page-heading {
-    /*padding: 150px 0;*/
-  }
 }
 .jumbotron .site-heading h1,
 .jumbotron .page-heading h1 {
