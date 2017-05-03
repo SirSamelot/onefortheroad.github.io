@@ -3,6 +3,7 @@ Script to publish draft markdown files into Jekyll posts
 - Insert Front Matter into markdown
 - Create new, renamed markdown file in _posts
 - Delete old markdown file
+- Rename and move notebook to ./ipynb
 """
 import os
 import sys
@@ -12,7 +13,7 @@ print('[INFO] running add_front_matter.py')
 
 # Input and output filenames
 ftitle = sys.argv[1].split('.')[0]
-markdown_fname = sys.argv[1].split('.')[0] + '.md'
+markdown_fname = ftitle + '.md'
 print('[INFO] Input:\t{}'.format(markdown_fname))
 
 title = ftitle.replace('-', ' ').title()
@@ -47,3 +48,9 @@ with open(output_path + output_fname, 'w') as f:
 # Delete original markdown file
 os.remove(markdown_fname)
 print('[INFO] {} deleted'.format(markdown_fname))
+
+# Rename and move iPython notebook to ./ipynb
+new_ipynb_fname = date + '-' + sys.argv[1]
+ipynb_dir = '../ipynb/'
+os.rename(sys.argv[1], ipynb_dir + new_ipynb_fname)
+print('[INFO] draft published to {} as {}'.format(ipynb_dir, new_ipynb_fname))
