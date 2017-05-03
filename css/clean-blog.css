@@ -23,13 +23,33 @@
 
 @font-face {
     font-family: Raleway;
-    /* change source to hosted src in production */
+    font-weight: 400;
     src: url('../fonts/Raleway-Regular.ttf');
 }
 @font-face {
+    font-family: Raleway;
+    font-weight: 700;
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: Raleway;
+    font-weight: 900;
+    src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+@font-face {
     font-family: Roboto;
-    /* change source to hosted src in production */
+    font-weight: 400;
     src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    font-weight: 900;
+    src: url('../fonts/Roboto-Black.ttf');
 }
 body {
   font-family: Raleway;
@@ -48,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
+  font-weight: 900;
 }
 a {
   color: #404040;
@@ -124,7 +144,6 @@ hr.small {
 .jumbotron .post-heading .meta {
   font-family: Raleway;
   font-style: italic;
-  /*font-weight: 300;*/
   font-size: 1.1em;
 }
 .jumbotron .post-heading .meta a {
@@ -146,12 +165,12 @@ hr.small {
   z-index: 3;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 900;
 }
 .navbar-custom .nav-item {
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
@@ -234,7 +253,7 @@ hr.small {
 .post-preview > a > .post-title {
   font-family: Roboto;
   font-size: 2.2em;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 0.8em;
 }
 .post-preview > a > .post-subtitle {
@@ -338,7 +357,7 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
@@ -352,9 +371,6 @@ form .row:first-child .floating-label-form-group {
   background-color: #0085a1;
   border: 1px solid #0085a1;
   color: white;
-}
-.pager {
-  margin: 1.5em 0;
 }
 .pager a {
   text-transform: uppercase;
