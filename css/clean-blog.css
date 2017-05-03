@@ -105,12 +105,14 @@ hr.small {
 }
 .jumbotron .site-heading h1,
 .jumbotron .page-heading h1 {
-  margin-top: 0;
+  font-family: Raleway;
   font-size: 3.5em;
   font-weight: bold;
+  margin-top: 0;
 }
 .jumbotron .site-heading .subheading,
 .jumbotron .page-heading .subheading {
+  font-family: Raleway;
   font-size: 1.5em;
   line-height: 1.1;
   display: block;
@@ -248,11 +250,11 @@ hr.small {
 }
 .post-preview > a > .post-title {
   font-size: 2.2em;
-  /*font-we*/ight: 700;
   margin-top: 0.8em;
 }
 .post-preview > a > .post-subtitle {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: normal;
 }
 .post-preview > .post-meta {
   color: #808080;
@@ -276,7 +278,6 @@ hr.small {
 .section-heading {
   font-size: 2em;
   margin-top: 60px;
-  /*font-we*/ight: 700;
 }
 .caption {
   text-align: center;
@@ -353,7 +354,6 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  /*font-we*/ight: 900;
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
@@ -370,8 +370,6 @@ form .row:first-child .floating-label-form-group {
 }
 .pager a {
   text-transform: uppercase;
-  font-size: 1em;
-  /*font-we*/ight: bold;
   padding: 0.4em 1.5em;
   background-color: white;
   border-radius: 0;
@@ -379,7 +377,6 @@ form .row:first-child .floating-label-form-group {
 }
 @media only screen and (min-width: 768px) {
   .pager a {
-    font-size: 1em;
     padding: 0.4em 1.5em;
   }
 }
