@@ -14,11 +14,6 @@
     Pantone Pastel Lavender:    #DAA4C9
     Pantone Deep Lavender:  #77529A
     Pantone Gold Fusion: FFB100
-
-    Facebook Blue: #3b5998;
-    Google Red: #dd4b39;
-    Pinterest Red: #bd081c;
-    Whatsapp Green: #4dc247;
 */
 
 @font-face {
@@ -68,7 +63,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 900;
+  font-family: Roboto;
+  font-weight: bold;
 }
 a {
   color: #404040;
@@ -165,12 +161,12 @@ hr.small {
   z-index: 3;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 900;
+  font-weight: 700;
 }
 .navbar-custom .nav-item {
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 900;
+  font-size: 0.8em;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
@@ -251,9 +247,8 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-family: Roboto;
   font-size: 2.2em;
-  font-weight: 700;
+  /*font-we*/ight: 700;
   margin-top: 0.8em;
 }
 .post-preview > a > .post-subtitle {
@@ -281,7 +276,7 @@ hr.small {
 .section-heading {
   font-size: 2em;
   margin-top: 60px;
-  font-weight: 700;
+  /*font-we*/ight: 700;
 }
 .caption {
   text-align: center;
@@ -301,6 +296,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
+  font-size: small;
   text-align: center;
   margin-bottom: 0;
 }
@@ -357,7 +353,7 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 900;
+  /*font-we*/ight: 900;
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
@@ -375,7 +371,7 @@ form .row:first-child .floating-label-form-group {
 .pager a {
   text-transform: uppercase;
   font-size: 1em;
-  font-weight: bold;
+  /*font-we*/ight: bold;
   padding: 0.4em 1.5em;
   background-color: white;
   border-radius: 0;
