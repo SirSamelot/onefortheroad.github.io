@@ -256,10 +256,27 @@ blockquote {
 }
 
 .portrait {
-  border-radius: 50%;
+  background-color: rgba(255,0,0,0.3);
   height: 80px;
+  border-radius: 50%;
+}
+.author-block-wrapper {
+  background-color: rgba(0,0,255,0.3);
+  position: relative;
+}
+.author-block {
+  background-color: rgba(0,255,0,0.3);
+  position: absolute;
+  top: -90px;
+  text-align: center;
 }
 
+.post-preview {
+  margin-top: 3em;
+}
+.post-preview:first-child {
+  margin-top: 0;
+}
 .post-preview > a {
   color: #404040;
 }
@@ -270,7 +287,6 @@ blockquote {
 }
 .post-preview > a > .post-title {
   font-size: 2.2em;
-  margin-top: 0.8em;
 }
 .post-preview > a > .post-subtitle {
   font-size: 1.2em;

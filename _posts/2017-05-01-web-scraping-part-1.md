@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Web Scraping, Part 1"
+title:  "Web Scraping, Part&nbsp;1"
 subtitle:   "Starring Beautiful Soup and Pandas"
 date:   2017-05-01 13:08:03
 author:     "Sam Wong"

@@ -19,9 +19,24 @@ layout: default
     </div>
 </header>
 
+<!-- Author Block -->
+<!-- <div class="container">
+    <div class="row justify-content-end author-block-wrapper">
+        <div class="author-block">
+            <span class="meta align-bottom">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+            <img src="{{ site.baseurl }}/img/Sam-headshot.jpg" alt="Sam Headshot" class="portrait">
+        </div>
+    </div>
+</div> -->
+
 <!-- Post Content -->
 <article>
     <div class="container">
+        <div class="row author-block-wrapper">
+            <div class="col-md-8 offset-md-2 author-block">
+                <img src="{{ site.baseurl }}/img/Sam-headshot.jpg" alt="Sam Headshot" class="portrait">
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-8 offset-md-2" style="overflow:auto">
 			    {{ content }}
