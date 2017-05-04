@@ -3,18 +3,17 @@ layout: default
 ---
 
 <!-- Page Header -->
-<header class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="align-self-center">
+<header>
+    <div class="jumbotron jumbotron-fluid jumbotron-bg">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
                 <div class="page-heading text-center">
-            <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-            <hr class="small">
-            <span class="subheading">{{ page.description }}</span>
-        </div>
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <hr class="small">
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
             </div>
         </div>
-
     </div>
 </header>
 

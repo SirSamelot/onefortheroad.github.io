@@ -3,21 +3,42 @@ layout: default
 ---
 
 <!-- Post Header -->
-<header class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <div class="post-heading text-center">
-            <h1>{{ page.title }}</h1>
-            {% if page.subtitle %}
-            <h2 class="subheading">{{ page.subtitle }}</h2>
-            {% endif %}
-            <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+<header>
+    <div class="jumbotron jumbotron-fluid jumbotron-bg">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="page-heading text-center">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
+            </div>
         </div>
     </div>
 </header>
 
+<!-- Author Block -->
+<!-- <div class="container">
+    <div class="row justify-content-end author-block-wrapper">
+        <div class="author-block">
+            <span class="meta align-bottom">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+            <img src="{{ site.baseurl }}/img/Sam-headshot.jpg" alt="Sam Headshot" class="portrait">
+        </div>
+    </div>
+</div> -->
+
 <!-- Post Content -->
 <article>
     <div class="container">
+        <div class="row author-block-wrapper">
+            <div class="col-md-8 offset-md-2 author-block">
+                <img src="{{ site.baseurl }}/img/Sam-headshot.jpg" alt="Sam Headshot" class="portrait">
+                <span class="author-name">Sam Wong</span>
+            </div>
+
+        </div>
         <div class="row">
             <div class="col-md-8 offset-md-2" style="overflow:auto">
 			    {{ content }}

@@ -113,15 +113,8 @@ blockquote {
 .jumbotron .site-heading,
 .jumbotron .post-heading,
 .jumbotron .page-heading {
-  /*padding: 100px 0 50px;*/
+  padding: 0px 10px;
   color: white;
-}
-@media only screen and (min-width: 768px) {
-  .jumbotron .site-heading,
-  .jumbotron .post-heading,
-  .jumbotron .page-heading {
-    /*padding: 150px 0;*/
-  }
 }
 .jumbotron .site-heading h1,
 .jumbotron .page-heading h1 {
@@ -263,10 +256,31 @@ blockquote {
 }
 
 .portrait {
-  border-radius: 50%;
   height: 80px;
+  border-radius: 50%;
+}
+.author-block-wrapper {
+  position: relative;
+}
+.author-block {
+  position: absolute;
+  top: -90px;
+  text-align: center;
+}
+.author-block > .author-name {
+  position: absolute;
+  width: 0;
+  white-space: nowrap;
+  bottom: 0.5em;
+  margin-left: 0.5em;
 }
 
+.post-preview {
+  margin-top: 3em;
+}
+.post-preview:first-child {
+  margin-top: 0;
+}
 .post-preview > a {
   color: #404040;
 }
@@ -277,7 +291,6 @@ blockquote {
 }
 .post-preview > a > .post-title {
   font-size: 2.2em;
-  margin-top: 0.8em;
 }
 .post-preview > a > .post-subtitle {
   font-size: 1.2em;
