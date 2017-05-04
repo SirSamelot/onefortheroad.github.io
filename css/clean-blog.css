@@ -256,19 +256,23 @@ blockquote {
 }
 
 .portrait {
-  background-color: rgba(255,0,0,0.3);
   height: 80px;
   border-radius: 50%;
 }
 .author-block-wrapper {
-  background-color: rgba(0,0,255,0.3);
   position: relative;
 }
 .author-block {
-  background-color: rgba(0,255,0,0.3);
   position: absolute;
   top: -90px;
   text-align: center;
+}
+.author-block > .author-name {
+  position: absolute;
+  width: 0;
+  white-space: nowrap;
+  bottom: 0.5em;
+  margin-left: 0.5em;
 }
 
 .post-preview {
