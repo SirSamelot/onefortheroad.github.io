@@ -20,6 +20,15 @@
     font-family: Raleway;
     font-weight: 400;
     src: url('../fonts/Raleway-Regular.ttf');
+}@font-face {
+    font-family: Raleway;
+    font-weight: 500;
+    src: url('../fonts/Raleway-Medium.ttf');
+}
+@font-face {
+    font-family: Raleway;
+    font-weight: 600;
+    src: url('../fonts/Raleway-SemiBold.ttf');
 }
 @font-face {
     font-family: Raleway;
@@ -28,8 +37,13 @@
 }
 @font-face {
     font-family: Raleway;
-    font-weight: 900;
+    font-weight: 800;
     src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Raleway;
+    font-weight: 900;
+    src: url('../fonts/Raleway-Black.ttf');
 }
 @font-face {
     font-family: Roboto;
@@ -49,7 +63,6 @@
 body {
   font-family: Raleway;
   color: #404040;
-  webkit-tap-highlight-color: #0085a1;
 }
 p {
   line-height: 1.5;
@@ -105,6 +118,24 @@ blockquote {
   color: white;
   text-shadow: none;
   background: #0085a1;
+}
+
+.author-block {
+  position: absolute;
+  top: -90px;
+  text-align: center;
+}
+.author-block .portrait {
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 0.5em;
+}
+.author-block span {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+  padding-top: 0.5em;
 }
 
 .jumbotron {
@@ -253,26 +284,6 @@ blockquote {
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
-}
-
-.portrait {
-  height: 80px;
-  border-radius: 50%;
-}
-.author-block-wrapper {
-  position: relative;
-}
-.author-block {
-  position: absolute;
-  top: -90px;
-  text-align: center;
-}
-.author-block > .author-name {
-  position: absolute;
-  width: 0;
-  white-space: nowrap;
-  bottom: 0.5em;
-  margin-left: 0.5em;
 }
 
 .post-preview {
