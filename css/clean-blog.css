@@ -1,9 +1,9 @@
-/*!
+/*
  * Based off of Clean Blog v1.0.0 (http://startbootstrap.com)
  * Licensed under MIT (https://spdx.org/licenses/MIT)
- */
+*/
 
- /* COLORS
+/* COLORS
     Gray20: #333333
     Gray40:  #666666
     Gray60:     #999999
@@ -118,6 +118,12 @@ blockquote {
   color: white;
   text-shadow: none;
   background: #0085a1;
+}
+
+.about-signature {
+  color: #333333;
+  font-style: italic;
+  margin: 1.5em;
 }
 
 .author-block {
