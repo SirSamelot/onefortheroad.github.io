@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Scraping, Part&nbsp;1"
 subtitle:   "Starring Beautiful Soup and Pandas"
-date:   2017-05-01 13:08:03
+date:   2017-04-28 21:28:03
 author:     "Sam Wong"
 categories: python tutorial
 ---
