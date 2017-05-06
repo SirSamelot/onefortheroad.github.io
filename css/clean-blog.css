@@ -108,6 +108,11 @@ a img:focus {
 blockquote {
   color: #808080;
   font-style: italic;
+  margin-bottom: 0!important;
+  font-size: 1em!important;
+}
+blockquote p {
+  margin: 0;
 }
 ::-moz-selection {
   color: white;
