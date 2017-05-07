@@ -8,6 +8,7 @@ Script to publish draft markdown files into Jekyll posts
 import os
 import sys
 import datetime
+import random
 
 print('[INFO] running add_front_matter.py')
 
@@ -17,9 +18,21 @@ markdown_fname = ftitle + '.md'
 print('[INFO] Input:\t{}'.format(markdown_fname))
 
 title = ftitle.replace('-', ' ').title()
-now = datetime.datetime.now()
-timestamp = now.strftime('%Y-%m-%d %X')
-date = now.strftime('%Y-%m-%d')
+
+# If a date is passed in, use that. Otherwise use current date
+if (sys.argv[2]):
+    date = sys.argv[2]
+    # Create random time
+    hour = random.randint(0, 23)
+    minute = random.randint(0, 59)
+    second = random.randint(0, 59)
+    random_time = datetime.time(hour, minute, second)
+    timestamp = date + ' ' + str(random_time)
+else:
+    now = datetime.datetime.now()
+    timestamp = now.strftime('%Y-%m-%d %X')
+    date = now.strftime('%Y-%m-%d')
+
 img_fname = date + '-' + sys.argv[1].split('.')[0] + '.jpg'
 
 output_fname = date + '-' + markdown_fname
