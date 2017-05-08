@@ -601,8 +601,8 @@ In **Web Scraping: Part 1**, we took a simple table from a web page and converte
 
 
 ### Resources
-- Intro to HTML & CSS by [codecademy](https://www.codecademy.com/learn/learn-html-css)
-- Intro to Python by [codecademy](https://www.codecademy.com/learn/python)
+- Intro to HTML & CSS, by [codecademy](https://www.codecademy.com/learn/learn-html-css)
+- Intro to Python, by [codecademy](https://www.codecademy.com/learn/python)
 - Beautiful Soup [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - Google's Regular Expressions [tutorial](https://developers.google.com/edu/python/regular-expressions)
-- pandas tutorial, [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+- pandas tutorial [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
