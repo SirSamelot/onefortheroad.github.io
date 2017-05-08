@@ -14,7 +14,7 @@ Hello! In Part 1 of this tutorial, we're going to learn how to:
 - Extract data from the web page
 - Turn that data into a *pandas* dataframe
 
-Since I love my country just as much as I love delicious fermented malt beverages, we'll be working with the *Top Rated Beers from Canada* as ranked by users on [BeerAdvocate](http://www.beeradvocate.com).
+Since I love my country just as much as I love delicious fermented malt beverages, we'll be working with the *Top Rated Beers from Canada* as ranked by users on [BeerAdvocate](http://beeradvocate.com/lists/ca/).
 
 Part 2 of this tutorial shows how to scrape a slightly more complex page, and a future tutorial will cover how to merge the data from these two different sources into a single dataframe for future analysis.
 
