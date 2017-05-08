@@ -22,7 +22,7 @@ email_username:  samhwwong@gmail.com
 markdown: kramdown
 permalink: pretty
 paginate: 5
-# gems: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-feed]
 gem 'github-pages', group: :jekyll_plugins
 exclude:
   - Gemfile
