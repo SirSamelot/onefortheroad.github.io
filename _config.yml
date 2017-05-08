@@ -23,7 +23,7 @@ disqus:
 markdown: kramdown
 permalink: pretty
 paginate: 5
-gems: [jekyll-feed]
+gems: [jekyll-feed, jekyll-sitemap]
 gem 'github-pages', group: :jekyll_plugins
 exclude:
   - Gemfile
