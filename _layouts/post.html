@@ -36,6 +36,7 @@ layout: default
 
                 <hr>
 
+                {% if page.next.url %}
                 <div class="pager">
                     {% if page.previous.url %}
                     <a class="previous float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
@@ -44,6 +45,7 @@ layout: default
                     <a class="next float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     {% endif %}
                 </div>
+                {% endif %}
             </div>
         </div>
     </div>

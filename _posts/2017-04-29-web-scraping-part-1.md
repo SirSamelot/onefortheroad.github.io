@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Web Scraping Part 1"
-subtitle:   "INSERT SUBTITLE"
-date:   2017-04-29 00:42:30
+title:  "Web Scraping: Part&nbsp1"
+subtitle:   "Starring Beautiful Soup and pandas"
+date:   2017-04-29 21:42:30
 author:     "Sam Wong"
 header-img: "img/2017-04-29-web-scraping-part-1.jpg"
 categories: python tutorial
@@ -88,7 +88,7 @@ print(page.content[:500])
 ```
 
     b'<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\t\n\n\n\n\n\t\n\n\n\n\n\n\t\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\n\t\t\n\t\n\n\n<html id="XenForo" lang="en-US" dir="LTR" class="Public NoJs uix_javascriptNeedsInit LoggedOut Sidebar  Responsive pageIsLtr   not_hasTabLinks  hasSearch   is-sidebarOpen hasRightSidebar is-setWidth navStyle_3 pageStyle_0 hasFlexbox" xmlns:fb="http://www.facebook.com/2008/fbml">\n<head>\n\n\n\t<meta charset="utf-8" />\n\t<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />\n\t\n\t\t<meta name="viewport" content="width'
-    
+
 
 Whoa, OK, hang on a minute.  What's all this?  If I squint hard enough, I can start picking out html tags here and there, and now my eyes are blurry and I'm not even drinking anything yet.
 
@@ -132,7 +132,7 @@ print(soup.prettify()[:1000])
       </noscript>
       <link href="css.php?css=xenforo,form,public&amp;style=7&amp;dir=LTR&amp;d=1493950233" rel="stylesheet"/>
       <link href="css.php?css=login_bar,mode
-    
+
 
 Better than `page.content` don't you agree?
 
@@ -167,7 +167,7 @@ print(h1_tags[0].string)
     <h1>Top Rated Beers: Canada</h1>
     ['Top Rated Beers: Canada']
     Top Rated Beers: Canada
-    
+
 
 Notice two things.  Since `find_all()` returned a list, we access the first (and in this case, only) list item with the index [0]. Also, notice the difference in outputs depending on how we accessed `h1_tags[0]`.  We'll explore this further later on.
 
@@ -191,7 +191,7 @@ print(h3_tags)
     <i class="uix_icon fa fa-book"></i>
     								Subscribe to BeerAdvocate Magazine
     							</h3>]
-    
+
 
 Since `find_all()` returns a list, we can easily iterate over the list to look at each individual tag.  This is a technique you will use often.  For example, let's print a numbered list of each `<h3>` tag:
 
@@ -215,7 +215,7 @@ for index, tag in enumerate(h3_tags):
     <i class="uix_icon fa fa-book"></i>
     								Subscribe to BeerAdvocate Magazine
     							</h3>
-    
+
 
 Wow, look how far we've come!  We went from a mash of HTML tags (the soup) and we've extracted an ordered list of specific tags.
 
@@ -256,7 +256,7 @@ print(len(soup.find_all('table')))
 ```
 
     1
-    
+
 
 Good news, there is only one `<table>` in our document.  If there were others, we would have to take care to find the one we're interested in (this technique will be covered in Part II).
 
@@ -271,7 +271,7 @@ print(len(rows))
 ```
 
     102
-    
+
 
 Wait a minute... looking in our browser, we see that there are 100 beers in the list.  Why are there 102 rows in our table?
 
@@ -283,15 +283,15 @@ print(rows[2].contents, '\n')
 print(rows[3].contents, '\n')
 ```
 
-    ['\n', <td align="left" bgcolor="#000000" colspan="4" valign="top" width="100%"><span style="color: #FFFFFF; font-weight: bold;">Top Rated Beers: Canada</span></td>, '\n'] 
-    
-    ['\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="5%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="70%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="10%">Avg</td>, '\n', <td align="right" bgcolor="#F0F0F0" valign="middle" width="15%">Ratings</td>, '\n'] 
-    
-    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">1</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>5,087</b></td>] 
-    
-    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">2</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/50803/"><b>Péché Mortel En Fût De Bourbon Américain</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.45</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>488</b></td>] 
-    
-    
+    ['\n', <td align="left" bgcolor="#000000" colspan="4" valign="top" width="100%"><span style="color: #FFFFFF; font-weight: bold;">Top Rated Beers: Canada</span></td>, '\n']
+
+    ['\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="5%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="70%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="10%">Avg</td>, '\n', <td align="right" bgcolor="#F0F0F0" valign="middle" width="15%">Ratings</td>, '\n']
+
+    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">1</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>5,087</b></td>]
+
+    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">2</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/50803/"><b>Péché Mortel En Fût De Bourbon Américain</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.45</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>488</b></td>]
+
+
 
 Ah-ha!  The first two `<tr>` are table headers, and our beer list actually starts at index 2.  We can rewrite our `find_all()` as follow:
 
@@ -304,7 +304,7 @@ print(rows[0].contents)
 
     100
     [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">1</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>5,087</b></td>]
-    
+
 
 That's better!  `rows` is now a list of 100 table rows, each containing a single beer entry.  We now have to go down to the next level in the HTML structure and get the `<td>` tags which correspond to each column in the row.  We'll start with the first row, and later we will put this all in a loop to process every row.
 
@@ -322,9 +322,9 @@ for index, column in enumerate(col):
     1.	[<a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a>, <div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div>]
     2.	[<b>4.39</b>]
     3.	[<b>5,087</b>]
-    
 
-Excellent work!  We found all four columns of data, and now we can better see the contents of each column.  
+
+Excellent work!  We found all four columns of data, and now we can better see the contents of each column.
 
 # 5. Extract data
 Let's work through each column one at a time and extract the information into easily understood variables.
@@ -336,11 +336,11 @@ print(rank, type(rank))
 ```
 
     1 <class 'int'>
-    
+
 
 We store the first column's value in a variable named `rank`.   Here we introduce a few new things:
 - `.string` gets only the string contents of a `Tag`.  Since we don't care about the other tags (e.g. the `<span>` tag), this is exactly what we need
-- `.strip()` is a Python function that strips leading and trailing whitespace from a string.  It's usually a good idea to use this when parsing HTML strings, just in case there are any hidden whitespace characters in the text.  
+- `.strip()` is a Python function that strips leading and trailing whitespace from a string.  It's usually a good idea to use this when parsing HTML strings, just in case there are any hidden whitespace characters in the text.
 - explicitly cast to type `int` so Python knows it is a number and not a string
 
 Let's do the same thing on the next column:
@@ -359,7 +359,7 @@ print(col1)
     <ipython-input-24-51362d3378d6> in <module>()
     ----> 1 col1 = col[1].string.strip()
           2 print(col1)
-    
+
 
     AttributeError: 'NoneType' object has no attribute 'strip'
 
@@ -378,7 +378,7 @@ print(beer_name, brewery, style, sep=' | ')
 ```
 
     Péché Mortel | Brasserie Dieu du Ciel! | American Double / Imperial Stout
-    
+
 
 So far so good.  We astutely noticed that three of the four values in the second column are located inside their own `<a>` tag, so we grabbed them like we did before.  However, the last value, the ABV, isn't like the others.  It's not contained within its own tag at all.  Never fear, Beautiful Soup to the rescue!
 
@@ -389,7 +389,7 @@ print(abv)
 ```
 
     / 9.50% ABV
-    
+
 
 Sweet!  What did we do exactly?  Since the ABV is right after the beer style, we used Beautiful Soup's `.next_sibling` attribute on the beer style tag, and boom we've got what we wanted!  Well, not exactly.  There's the `/` character in front that's a bit ugly.  Also, for future data analysis we will probably want to treat the ABV as a number and not a string.  So let's get the ABV as a number only, and for that we use Python's powerful Regular Expression library:
 
@@ -400,7 +400,7 @@ print(abv, type(abv))
 ```
 
     9.5 <class 'float'>
-    
+
 
 The long expression within `re.findall()` is known a **Regular Expression**, or *regex* for short.  Basically, this particular *regex* finds and returns a numeric value contained within a string.  There are many ways to write this expression, and I recommend becoming familiar with *regex* if you plan to do any sort of text or expression matching.  Google has a great overview on *regex* [here](https://developers.google.com/edu/python/regular-expressions).
 
@@ -416,7 +416,7 @@ print(ratings, type(ratings))
 
     4.39 <class 'float'>
     5087 <class 'int'>
-    
+
 
 Notice how we removed the thousands separator in `ratings` before casting it into an `int`.
 
@@ -443,12 +443,12 @@ Putting everything in Section 5 into a loop, we can very quickly extract the dat
 
 ```python
 beers = []  # Initialize an empty list to contain all the beer
-for row in soup.find_all('tr')[2:]: 
+for row in soup.find_all('tr')[2:]:
     col = row.find_all('td')
-    
+
     # First column
     rank = int(col[0].string.strip())
-    
+
     # Second column
     col1_a_tag = col[1].find_all('a')
     beer_name = col1_a_tag[0].string.strip()
@@ -456,13 +456,13 @@ for row in soup.find_all('tr')[2:]:
     style = col1_a_tag[2].string.strip()
     abv = col1_a_tag[2].next_sibling.strip()
     abv = float(re.findall(r"(?<![a-zA-Z:])[-+]?\d*\.?\d+", abv)[0])
-    
+
     # Third column
     score = float(col[2].string.strip())
-    
+
     # Fourth column
     ratings = int(col[3].string.strip().replace(',', ''))
-    
+
     # Gather into a single dictionary
     beer = {
         'rank': rank,
@@ -473,7 +473,7 @@ for row in soup.find_all('tr')[2:]:
         'score': score,
         'ratings': ratings
     }
-    
+
     # Add the beer to our beer list
     beers.append(beer)
 ```
@@ -485,11 +485,11 @@ We now have a list, `beers`, containing the data we extracted from the entire ta
 print(beers[0], '\n', beers[99])
 ```
 
-    {'rank': 1, 'name': 'Péché Mortel', 'brewery': 'Brasserie Dieu du Ciel!', 'style': 'American Double / Imperial Stout', 'abv': 9.5, 'score': 4.39, 'ratings': 5087} 
+    {'rank': 1, 'name': 'Péché Mortel', 'brewery': 'Brasserie Dieu du Ciel!', 'style': 'American Double / Imperial Stout', 'abv': 9.5, 'score': 4.39, 'ratings': 5087}
      {'rank': 100, 'name': 'Rigor Mortis Abt', 'brewery': 'Brasserie Dieu du Ciel!', 'style': 'Quadrupel (Quad)', 'abv': 10.5, 'score': 3.91, 'ratings': 759}
-    
 
-This is good, but we want to be great. You can see that accessing this dictionary is a bit ungainly, and that would make any sort of processing or analysis clumsy and painful.  Enter *pandas* stage left! 
+
+This is good, but we want to be great. You can see that accessing this dictionary is a bit ungainly, and that would make any sort of processing or analysis clumsy and painful.  Enter *pandas* stage left!
 
 # 7. We heart pandas, and not only the fuzzy endangered variety
 *pandas* is a library for data analysis in Python.  (Check out the [resources](#resources) section at the end for more information).  We're barely going to skim the surface of *pandas* in ths tutorial, but rest assured we will use it much more in future tutorials.
@@ -503,19 +503,19 @@ print(df.head())
 ```
 
         abv                  brewery                                      name  \
-    0   9.5  Brasserie Dieu du Ciel!                              Péché Mortel   
-    1   9.5  Brasserie Dieu du Ciel!  Péché Mortel En Fût De Bourbon Américain   
-    2   9.0                 Unibroue                           La Fin Du Monde   
-    3  10.0                 Unibroue                Unibroue 17 Grande Réserve   
-    4   7.0        Driftwood Brewery                               Fat Tug IPA   
-    
-       rank  ratings  score                             style  
-    0     1     5087   4.39  American Double / Imperial Stout  
-    1     2      488   4.45  American Double / Imperial Stout  
-    2     3    10020   4.31                            Tripel  
-    3     4     1140   4.24           Belgian Strong Dark Ale  
-    4     5      601   4.25                      American IPA  
-    
+    0   9.5  Brasserie Dieu du Ciel!                              Péché Mortel
+    1   9.5  Brasserie Dieu du Ciel!  Péché Mortel En Fût De Bourbon Américain
+    2   9.0                 Unibroue                           La Fin Du Monde
+    3  10.0                 Unibroue                Unibroue 17 Grande Réserve
+    4   7.0        Driftwood Brewery                               Fat Tug IPA
+
+       rank  ratings  score                             style
+    0     1     5087   4.39  American Double / Imperial Stout
+    1     2      488   4.45  American Double / Imperial Stout
+    2     3    10020   4.31                            Tripel
+    3     4     1140   4.24           Belgian Strong Dark Ale
+    4     5      601   4.25                      American IPA
+
 
 Very nice!  In one line we turned our list of dictionaries `beers` into a dataframe named `df`.  One of the great features of DataFrames is access to the `.head()` method.  This method displays the first 5 lines of the dataframe.  There is a similar method `.tail()` that prints out the last 5 lines of the dataframe.  You can also pass an integer *n* as an argument to these methods and it will display *n* lines instead of the default 5.
 
@@ -540,21 +540,21 @@ print(df.head())
 ```
 
                                               name                  brewery  \
-    rank                                                                      
-    1                                 Péché Mortel  Brasserie Dieu du Ciel!   
-    2     Péché Mortel En Fût De Bourbon Américain  Brasserie Dieu du Ciel!   
-    3                              La Fin Du Monde                 Unibroue   
-    4                   Unibroue 17 Grande Réserve                 Unibroue   
-    5                                  Fat Tug IPA        Driftwood Brewery   
-    
-                                     style   abv  score  ratings  
-    rank                                                          
-    1     American Double / Imperial Stout   9.5   4.39     5087  
-    2     American Double / Imperial Stout   9.5   4.45      488  
-    3                               Tripel   9.0   4.31    10020  
-    4              Belgian Strong Dark Ale  10.0   4.24     1140  
-    5                         American IPA   7.0   4.25      601  
-    
+    rank
+    1                                 Péché Mortel  Brasserie Dieu du Ciel!
+    2     Péché Mortel En Fût De Bourbon Américain  Brasserie Dieu du Ciel!
+    3                              La Fin Du Monde                 Unibroue
+    4                   Unibroue 17 Grande Réserve                 Unibroue
+    5                                  Fat Tug IPA        Driftwood Brewery
+
+                                     style   abv  score  ratings
+    rank
+    1     American Double / Imperial Stout   9.5   4.39     5087
+    2     American Double / Imperial Stout   9.5   4.45      488
+    3                               Tripel   9.0   4.31    10020
+    4              Belgian Strong Dark Ale  10.0   4.24     1140
+    5                         American IPA   7.0   4.25      601
+
 
 Much better!
 
@@ -566,31 +566,31 @@ print(df.describe(include='all'))
 ```
 
                                   name                  brewery         style  \
-    count                          100                      100           100   
-    unique                         100                       28            27   
-    top     Black Oak Ten Bitter Years  Brasserie Dieu du Ciel!  American IPA   
-    freq                             1                       16            18   
-    mean                           NaN                      NaN           NaN   
-    std                            NaN                      NaN           NaN   
-    min                            NaN                      NaN           NaN   
-    25%                            NaN                      NaN           NaN   
-    50%                            NaN                      NaN           NaN   
-    75%                            NaN                      NaN           NaN   
-    max                            NaN                      NaN           NaN   
-    
-                   abv       score       ratings  
-    count   100.000000  100.000000    100.000000  
-    unique         NaN         NaN           NaN  
-    top            NaN         NaN           NaN  
-    freq           NaN         NaN           NaN  
-    mean      8.272000    4.143100    513.540000  
-    std       1.931613    0.110597   1312.030106  
-    min       4.400000    3.910000     50.000000  
-    25%       6.575000    4.067500     91.500000  
-    50%       8.550000    4.140000    135.000000  
-    75%      10.000000    4.202500    271.000000  
-    max      12.200000    4.480000  10020.000000  
-    
+    count                          100                      100           100
+    unique                         100                       28            27
+    top     Black Oak Ten Bitter Years  Brasserie Dieu du Ciel!  American IPA
+    freq                             1                       16            18
+    mean                           NaN                      NaN           NaN
+    std                            NaN                      NaN           NaN
+    min                            NaN                      NaN           NaN
+    25%                            NaN                      NaN           NaN
+    50%                            NaN                      NaN           NaN
+    75%                            NaN                      NaN           NaN
+    max                            NaN                      NaN           NaN
+
+                   abv       score       ratings
+    count   100.000000  100.000000    100.000000
+    unique         NaN         NaN           NaN
+    top            NaN         NaN           NaN
+    freq           NaN         NaN           NaN
+    mean      8.272000    4.143100    513.540000
+    std       1.931613    0.110597   1312.030106
+    min       4.400000    3.910000     50.000000
+    25%       6.575000    4.067500     91.500000
+    50%       8.550000    4.140000    135.000000
+    75%      10.000000    4.202500    271.000000
+    max      12.200000    4.480000  10020.000000
+
 
 The method `.describe()`  summarizes key statistics for your data.  For example, of the 100 beers in our list, the inimitable Quebecois brewer [*Dieu du Ciel!*](http://dieuduciel.com/en/) is represented with 16 entries.  The lowest ABV is 4.4% and the highest a whopping 12.2%.  Cool!
 
