@@ -3,8 +3,7 @@ title: One For The Road
 email: samhwwong@gmail.com
 header-img: img/home-bg.jpg
 copyright_name: Sam Wong
-description: > # this means to ignore newlines until "baseurl:"
-  The best Data Analytics and Data Science tutorials. Written for beginners using Python and pandas
+description: The best Data Analytics and Data Science tutorials, written for beginners using Python and pandas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 repository: onefortheroad/onefortheroad.github.io
