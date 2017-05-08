@@ -341,11 +341,12 @@ footer .list-inline {
   margin: 0;
   padding: 0;
 }
-footer .copyright {
+.footer-text {
   font-size: small;
   text-align: center;
-  margin-bottom: 0;
 }
+.footer-text p { margin-bottom: 0.5em; }
+.footer-text a { font-style: italic; }
 
 .floating-label-form-group {
   position: relative;

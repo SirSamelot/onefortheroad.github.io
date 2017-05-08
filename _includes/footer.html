@@ -63,8 +63,9 @@
                 {% endif %}
             </ul>
         </div>
-        <div>
-            <p class="copyright text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
+        <div class="footer-text">
+            <p class="text-muted">Copyright &copy;{{ site.time | date: '%Y' }} {{ site.copyright_name }}</p>
+            <a class="text-muted" href="{{ site.baseurl }}/privacy-policy">Privacy Policy</a>
         </div>
     </div>
 </footer>
