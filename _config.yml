@@ -5,13 +5,15 @@ header-img: img/home-bg.jpg
 copyright_name: Sam Wong
 description: The best Data Analytics and Data Science tutorials, written for beginners using Python and pandas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://onefortheroad.github.io"
 repository: onefortheroad/onefortheroad.github.io
 linkedin_username: sam-wong-p-eng-73696b87
 twitter_username: SirSamelot
 github_username:  OneForTheRoad
 facebook_username:
 email_username:  samhwwong@gmail.com
+disqus:
+  shortname: one-for-the-road
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
