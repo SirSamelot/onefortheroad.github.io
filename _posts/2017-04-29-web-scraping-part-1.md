@@ -600,6 +600,8 @@ One basic truth of web scraping is that it is inherently unreliable.  Web conten
 
 In **Web Scraping: Part 1**, we took a simple table from a web page and converted its contents into a tabular form that is ready for analysis.  Tools like Beautiful Soup and *pandas* did most of the heavy lifting.  Our simple code has much room for improvement.  In **Web Scraping: Part 2**, we will scrape a (slightly) more complicated web page.  For now, all this work has made me quite thirsty...
 
+> Have a question about this topic, or a suggestion for a future topic?  Please, leave a comment below!
+{:.blockquote}
 
 ### Resources
 - [Intro to HTML & CSS](https://www.codecademy.com/learn/learn-html-css), by codecademy
