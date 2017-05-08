@@ -1,17 +1,17 @@
 # Site settings
 title: One For The Road
-email: your-email@domain.com
+email: samhwwong@gmail.com
 header-img: img/home-bg.jpg
 copyright_name: Sam Wong
 description: > # this means to ignore newlines until "baseurl:"
-  "Write your site description here. It will be used as your sites meta description as well!"
+  "The best Data Analytics and Data Science tutorials. Written for beginners using Python and pandas"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 repository: onefortheroad/onefortheroad.github.io
-twitter_username: twitter_username
-github_username:  github_username
-facebook_username:  facebook_username
-email_username:  email_username
+twitter_username: SirSamelot
+github_username:  OneForTheRoad
+facebook_username:  ""
+email_username:  samhwwong@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
