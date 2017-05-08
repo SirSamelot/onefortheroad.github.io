@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 repository: onefortheroad/onefortheroad.github.io
 twitter_username: SirSamelot
 github_username:  OneForTheRoad
-facebook_username:  ""
+facebook_username:
 email_username:  samhwwong@gmail.com
 
 # Google Analytics
