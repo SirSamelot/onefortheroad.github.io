@@ -12,6 +12,8 @@ twitter_username: SirSamelot
 github_username:  OneForTheRoad
 facebook_username:
 email_username:  samhwwong@gmail.com
+disqus:
+  shortname: one-for-the-road
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
