@@ -47,6 +47,7 @@ date:   {timestamp}
 author:     "Sam Wong"
 header-img: "img/{img_filename}"
 categories: python tutorial
+comments: true
 ---""".format(title=title, timestamp=timestamp, img_filename=img_fname)
 
 # Read contents of current markdown file
