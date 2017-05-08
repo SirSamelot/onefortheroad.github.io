@@ -503,7 +503,7 @@ df = pd.DataFrame(beers)
 print(df.head())
 ```
 
-        abv                  brewery                                      name  \
+        abv                  brewery                                      name
     0   9.5  Brasserie Dieu du Ciel!                              Péché Mortel
     1   9.5  Brasserie Dieu du Ciel!  Péché Mortel En Fût De Bourbon Américain
     2   9.0                 Unibroue                           La Fin Du Monde
