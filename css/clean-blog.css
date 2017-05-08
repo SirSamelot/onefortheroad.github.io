@@ -78,6 +78,7 @@ h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
+h1:not(:first-of-type) { margin-top: 0.5em; }
 hr.small {
   max-width: 100px;
   margin: 15px auto;
@@ -94,11 +95,13 @@ img::-moz-selection {
 }
 a {
   color: #404040;
-  border-bottom: 1px dashed #999;
+  border-bottom: 1px dotted #999;
 }
 a:hover,
 a:focus {
   color: #0085a1;
+  text-decoration: none;
+  border-bottom: 1px dotted #0085a1;
 }
 a img:hover,
 a img:focus {
@@ -110,19 +113,7 @@ blockquote {
   margin-bottom: 0!important;
   font-size: 1em!important;
 }
-blockquote p {
-  margin: 0;
-}
-::-moz-selection {
-  color: white;
-  text-shadow: none;
-  background: #0085a1;
-}
-::selection {
-  color: white;
-  text-shadow: none;
-  background: #0085a1;
-}
+blockquote p { margin: 0; }
 
 .about-signature {
   color: #333333;
@@ -148,9 +139,7 @@ blockquote p {
   padding-top: 0.5em;
 }
 
-.jumbotron {
-  margin-bottom: 50px;
-}
+.jumbotron { margin-bottom: 50px; }
 .jumbotron .site-heading,
 .jumbotron .post-heading,
 .jumbotron .page-heading {
@@ -210,6 +199,7 @@ blockquote p {
   }
 }
 
+.navbar a { border-bottom: none; }
 .navbar-custom {
   position: absolute;
   top: 0;
@@ -217,9 +207,7 @@ blockquote p {
   width: 100%;
   z-index: 3;
 }
-.navbar-custom .navbar-brand {
-  font-weight: bold;
-}
+.navbar-custom .navbar-brand { font-weight: bold; }
 .navbar-custom .nav-item {
   text-transform: uppercase;
   font-size: 0.8em;
@@ -296,23 +284,15 @@ blockquote p {
   }
 }
 
-.post-preview {
-  margin-top: 3em;
-}
-.post-preview:first-child {
-  margin-top: 0;
-}
-.post-preview > a {
-  color: #404040;
-}
+.post-preview { margin-top: 3em; }
+.post-preview:first-child { margin-top: 0; }
+.post-preview > a { color: #404040; }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
   color: #0085a1;
 }
-.post-preview > a > .post-title {
-  font-size: 2.2em;
-}
+.post-preview > a > .post-title { font-size: 2.2em; }
 .post-preview > a > .post-subtitle {
   font-size: 1.2em;
   font-weight: normal;
@@ -353,9 +333,9 @@ blockquote p {
   border-bottom-left-radius: 5px;
 }
 
-footer {
-  padding: 50px 0 65px;
-}
+footer { padding: 50px 0 65px; }
+footer a { border-bottom: none; }
+footer a:hover, footer a:focus { border-bottom: none; }
 footer .list-inline {
   margin: 0;
   padding: 0;
@@ -409,12 +389,8 @@ footer .copyright {
   top: 0;
   opacity: 1;
 }
-.floating-label-form-group-with-focus label {
-  color: #0085a1;
-}
-form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eeeeee;
-}
+.floating-label-form-group-with-focus label { color: #0085a1; }
+form .row:first-child .floating-label-form-group { border-top: 1px solid #eeeeee; }
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
