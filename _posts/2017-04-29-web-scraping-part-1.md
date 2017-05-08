@@ -23,7 +23,7 @@ Part 2 of this tutorial shows how to scrape a slightly more complex page, and a 
 1. [Import Libraries](#1-import-libraries)
 2. [Download the web page](#2-download-the-web-page)
 3. [Parsing HTML](#3-parsing-the-html-or-what-devilry-is-this)
-4. [Examing the HTML](#4-examine-the-html-structure)
+4. [Examine the HTML](#4-examine-the-html-structure)
 5. [Extract Data](#5-extract-data)
 6. [Extract all the Data](#6-extract-all-the-data)
 7. [We Heart pandas](#7-we-heart-pandas-and-not-only-the-fuzzy-endangered-variety)
