@@ -16,52 +16,53 @@
     Pantone Gold Fusion: FFB100
 */
 
-@font-face {
-    font-family: Raleway;
+/* Local Versions of fonts */
+/*@font-face {
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     src: url('../fonts/Raleway-Regular.ttf');
 }@font-face {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     src: url('../fonts/Raleway-Medium.ttf');
 }
 @font-face {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     src: url('../fonts/Raleway-SemiBold.ttf');
 }
 @font-face {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     src: url('../fonts/Raleway-Bold.ttf');
 }
 @font-face {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     src: url('../fonts/Raleway-ExtraBold.ttf');
 }
 @font-face {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 900;
     src: url('../fonts/Raleway-Black.ttf');
 }
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     src: url('../fonts/Roboto-Regular.ttf');
 }
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     src: url('../fonts/Roboto-Bold.ttf');
 }
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     src: url('../fonts/Roboto-Black.ttf');
-}
+}*/
 body {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   color: #404040;
 }
 p {
@@ -77,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 hr.small {
@@ -160,14 +161,14 @@ blockquote p {
 }
 .jumbotron .site-heading h1,
 .jumbotron .page-heading h1 {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 3.5em;
   font-weight: bold;
   margin-top: 0;
 }
 .jumbotron .site-heading .subheading,
 .jumbotron .page-heading .subheading {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   line-height: 1.1;
   display: block;
@@ -195,7 +196,7 @@ blockquote p {
   font-weight: bold;
 }
 .jumbotron .post-heading .meta {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: italic;
   font-size: 1.1em;
 }
@@ -219,12 +220,12 @@ blockquote p {
   z-index: 3;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 700;
+  font-weight: bold;
 }
 .navbar-custom .nav-item {
   text-transform: uppercase;
   font-size: 0.8em;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {

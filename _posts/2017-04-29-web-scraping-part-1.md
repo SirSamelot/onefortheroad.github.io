@@ -1,22 +1,32 @@
 ---
 layout: post
-title:  "[DRAFT] Web Scraping Part 1"
-subtitle:   "web-scraping-part-1.md"
-date:   2017-05-06 22:13:02
+title:  "Web Scraping Part 1"
+subtitle:   "INSERT SUBTITLE"
+date:   2017-04-29 00:42:30
 author:     "Sam Wong"
-header-img: "img/draft-bg.jpg"
+header-img: "img/2017-04-29-web-scraping-part-1.jpg"
 categories: python tutorial
 ---
 # Introduction
 
-Hello! In Part 1 of this two-part tutorial, we're going to learn how to:
+Hello! In Part 1 of this tutorial, we're going to learn how to:
 - Get a simple web page into Python
 - Extract data from the web page
-- Turn that data into a Pandas dataframe
+- Turn that data into a *pandas* dataframe
 
-Since I love my country, just as much as I love delicious fermented malt beverages, we'll be working with the *Top Rated Beers from Canada*, as ranked by users on [BeerAdvocate](www.beeradvocate.com).
+Since I love my country just as much as I love delicious fermented malt beverages, we'll be working with the *Top Rated Beers from Canada* as ranked by users on [BeerAdvocate](www.beeradvocate.com).
 
 Part 2 of this tutorial shows how to scrape a slightly more complex page, and a future tutorial will cover how to merge the data from these two different sources into a single dataframe for future analysis.
+
+## Contents
+1. [Import Libraries](#1-import-libraries)
+2. [Download the web page](#2-download-the-web-page)
+3. [Parsing HTML](#3-parsing-the-html-or-what-devilry-is-this)
+4. [Examing the HTML](#4-examine-the-html-structure)
+5. [Extract Data](#5-extract-data)
+6. [Extract all the Data](#6-extract-all-the-data)
+7. [We Heart pandas](#7-we-heart-pandas-and-not-only-the-fuzzy-endangered-variety)
+8. [Conclusion](#conclusion)
 
 ### *Pre-requisites*
 - a basic understanding of HTML, CSS, and Python
@@ -24,7 +34,8 @@ Part 2 of this tutorial shows how to scrape a slightly more complex page, and a 
 >If any of these are unfamiliar, make sure you check out the [resources](#resources) at the end of this tutorial.
 {:.blockquote}
 
-## 1. Import Libaries
+
+# 1. Import Libraries
 First, we need to import some required libraries.  For this tutorial, these libraries will be used for the following:
 * `re`: extract text from strings using Regular Expressions
 * `requests`: download html pages
@@ -41,16 +52,13 @@ from bs4 import BeautifulSoup
 import pandas as pd
 ```
 
-## 2. Download the webpage
-It is very easy to download a webpage using the requests library.  We just pass in the URL as a string to `requests.get()`.  This will return a `Response` object
+# 2. Download the web page
+It is very easy to download a web page using the `requests` library.  We pass in a URL as a string to `requests.get()` and get a `Response` object in return:
 
 
 ```python
 url = 'https://www.beeradvocate.com/lists/ca/'
 page = requests.get(url)
-
-# Offline Development
-# soup = BeautifulSoup(open('./data/Top Rated Beers_ Canada _ BeerAdvocate.html'), 'lxml')
 ```
 
 We can explore the `page` object a bit more.  The following will return the HTTP status code of the request:
@@ -82,19 +90,19 @@ print(page.content[:500])
     b'<!DOCTYPE html>\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\t\n\n\n\n\n\t\n\n\n\n\n\n\t\n\n\n\n\n\t\n\t\t\n\t\n\t\n\t\n\t\t\n\t\n\n\n<html id="XenForo" lang="en-US" dir="LTR" class="Public NoJs uix_javascriptNeedsInit LoggedOut Sidebar  Responsive pageIsLtr   not_hasTabLinks  hasSearch   is-sidebarOpen hasRightSidebar is-setWidth navStyle_3 pageStyle_0 hasFlexbox" xmlns:fb="http://www.facebook.com/2008/fbml">\n<head>\n\n\n\t<meta charset="utf-8" />\n\t<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />\n\t\n\t\t<meta name="viewport" content="width'
     
 
-Whoa, OK, hang on a minute.  What's all this?  If I squint hard enough, I can start picking out html tags here and there, and now my eyes are blurry and I'm not even drinking anything.
+Whoa, OK, hang on a minute.  What's all this?  If I squint hard enough, I can start picking out html tags here and there, and now my eyes are blurry and I'm not even drinking anything yet.
 
-What `page.text` did was return the raw contents of the downloaded html file.  That's a great start (thank you `requests.get()`) but what we want is that table of Top 100 beers.  That brings us to our next tool, **Beautiful Soup**.
+What `page.content` did was return the raw contents of the downloaded html file.  That's a great start (thank you `requests.get()`) but what we want is that table of Top 100 beers.  That brings us to our next tool, **Beautiful Soup**.
 
-## 3. Parsing the html, or "What devilry is this?!"
-Now that we have a nice `page` object containing our page's HTML code, we can then use the magic inside Beautiful Soup to pick out the parts we want.  This is called *parsing*.  To start, we simply instantiate Beautiful Soup with our page's content using the *lxml* HTML parser.
+# 3. Parsing the html, or "What devilry is this?!"
+Now that we have a `requests` object containing our page's HTML code, we can then use the magic inside Beautiful Soup to pick out the parts we want.  This is called *parsing*.  To start, we simply instantiate Beautiful Soup with our page's content using the *lxml* HTML parser. (Read more about parsers [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser).)
 
 
 ```python
 soup = BeautifulSoup(page.content, 'lxml')
 ```
 
-Now we have a `soup` object that is ready for us to poke around.  Behind the scenes, Beautiful Soup has turned the HTML into a nested data structure.  The full scope of Beautiful Soup is beyond this tutorial, but let's explore the basics.
+Now we have a `soup` object that is ready for us to digest.  Behind the scenes, Beautiful Soup has turned the HTML into a nested data structure.  The full scope of Beautiful Soup is beyond this tutorial, but let's explore the basics.
 
 First, we now have access to a nicely formatted version of our downloaded page.  Here's a snippet of the first 1000 characters:
 
@@ -122,13 +130,13 @@ print(soup.prettify()[:1000])
         .JsOnly, .jsOnly { display: none !important; }
        </style>
       </noscript>
-      <link href="css.php?css=xenforo,form,public&amp;style=7&amp;dir=LTR&amp;d=1492562935" rel="stylesheet"/>
+      <link href="css.php?css=xenforo,form,public&amp;style=7&amp;dir=LTR&amp;d=1493950233" rel="stylesheet"/>
       <link href="css.php?css=login_bar,mode
     
 
 Better than `page.content` don't you agree?
 
-Let's learn the basics of navigating a Beautiful Soup object.
+## Basics of Beautiful Soup
 
 One common task is seaching for HTML sections by tag.  For example, let's search for all `<h1>` tags.
 
@@ -144,7 +152,7 @@ soup.find_all('h1')
 
 
 
-`find_all()` finds every instance of the tag(s) in its argument list, and returns a list of `Tag` object.  In our case, there was only a single `<h1>` tag.
+`find_all()` finds every instance of the tag(s) in its argument list, and returns a list of `Tag` objects.  In our case, there was only a single `<h1>` tag.
 
 `Tag` objects have a number of attributes and methods.  For example, look at the output of the following lines:
 
@@ -215,7 +223,7 @@ There are many ways to search through Beautiful Soup objects.  There are also ma
 
 For now, we know enough to be dangerous, and we can start parsing this relatively simple page.
 
-## 4. Examine the HTML structure
+# 4. Examine the HTML structure
 In order to parse our HTML Page, *Top Rated Canadian Beers*, we have to understand what we are looking for.  Since we're interested in the table of beers, right click the table header and select "Inspect" to enter your browser's HTML code inspector.  A snippet of the HTML table looks like this:
 
 ```html
@@ -275,13 +283,13 @@ print(rows[2].contents, '\n')
 print(rows[3].contents, '\n')
 ```
 
-    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">1</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>5,086</b></td>] 
+    ['\n', <td align="left" bgcolor="#000000" colspan="4" valign="top" width="100%"><span style="color: #FFFFFF; font-weight: bold;">Top Rated Beers: Canada</span></td>, '\n'] 
+    
+    ['\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="5%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="70%"> </td>, '\n', <td align="left" bgcolor="#F0F0F0" valign="middle" width="10%">Avg</td>, '\n', <td align="right" bgcolor="#F0F0F0" valign="middle" width="15%">Ratings</td>, '\n'] 
+    
+    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">1</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>5,087</b></td>] 
     
     [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">2</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/50803/"><b>Péché Mortel En Fût De Bourbon Américain</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.45</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>488</b></td>] 
-    
-    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">3</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/22/34/"><b>La Fin Du Monde</b></a><div id="extendedInfo"><a href="/beer/profile/22/">Unibroue</a><br/><a href="/beer/style/58/">Tripel</a> / 9.00% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.31</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>10,020</b></td>] 
-    
-    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">4</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/22/76874/"><b>Unibroue 17 Grande Réserve</b></a><div id="extendedInfo"><a href="/beer/profile/22/">Unibroue</a><br/><a href="/beer/style/56/">Belgian Strong Dark Ale</a> / 10.00% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.24</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>1,140</b></td>] 
     
     
 
@@ -295,7 +303,7 @@ print(rows[0].contents)
 ```
 
     100
-    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">1</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>5,086</b></td>]
+    [<td align="center" bgcolor="#F7F7F7" class="hr_bottom_light" valign="top"><span style="font-weight:bold;color:#666666;">1</span></td>, <td align="left" class="hr_bottom_light" valign="middle"><a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a><div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div></td>, <td align="left" class="hr_bottom_light" valign="top"><b>4.39</b></td>, <td align="right" class="hr_bottom_light" valign="top"><b>5,087</b></td>]
     
 
 That's better!  `rows` is now a list of 100 table rows, each containing a single beer entry.  We now have to go down to the next level in the HTML structure and get the `<td>` tags which correspond to each column in the row.  We'll start with the first row, and later we will put this all in a loop to process every row.
@@ -313,12 +321,12 @@ for index, column in enumerate(col):
     0.	[<span style="font-weight:bold;color:#666666;">1</span>]
     1.	[<a href="/beer/profile/1141/10325/"><b>Péché Mortel</b></a>, <div id="extendedInfo"><a href="/beer/profile/1141/">Brasserie Dieu du Ciel!</a><br/><a href="/beer/style/157/">American Double / Imperial Stout</a> / 9.50% ABV</div>]
     2.	[<b>4.39</b>]
-    3.	[<b>5,086</b>]
+    3.	[<b>5,087</b>]
     
 
 Excellent work!  We found all four columns of data, and now we can better see the contents of each column.  
 
-## 5. Extract data
+# 5. Extract data
 Let's work through each column one at a time and extract the information into easily understood variables.
 
 
@@ -348,7 +356,7 @@ print(col1)
 
     AttributeError                            Traceback (most recent call last)
 
-    <ipython-input-44-51362d3378d6> in <module>()
+    <ipython-input-24-51362d3378d6> in <module>()
     ----> 1 col1 = col[1].string.strip()
           2 print(col1)
     
@@ -394,7 +402,7 @@ print(abv, type(abv))
     9.5 <class 'float'>
     
 
-The long expression within `re.findall()` is known a *Regular Expression*, or *regex* for short.  Basically, this particular *regex* finds and returns a numeric value contained within a string.  There are many ways to write this expression, and I would recommend becoming familiar with *regex* if you plan to do any sort of text or expression matching work.  Google has a great overview on *regex* [here](https://developers.google.com/edu/python/regular-expressions).
+The long expression within `re.findall()` is known a **Regular Expression**, or *regex* for short.  Basically, this particular *regex* finds and returns a numeric value contained within a string.  There are many ways to write this expression, and I recommend becoming familiar with *regex* if you plan to do any sort of text or expression matching.  Google has a great overview on *regex* [here](https://developers.google.com/edu/python/regular-expressions).
 
 Whew, that second column was a bit of work.  Armed with our new skills, we can make short work of the  next two columns.
 
@@ -407,7 +415,7 @@ print(ratings, type(ratings))
 ```
 
     4.39 <class 'float'>
-    5086 <class 'int'>
+    5087 <class 'int'>
     
 
 Notice how we removed the thousands separator in `ratings` before casting it into an `int`.
@@ -429,7 +437,7 @@ beer = {
 
 Time for a little review.  We've read in a single table row containing a beer, and extracted seven different values from that row.  We've cleaned up these values a bit so that they are ready for future analysis.  Finally, we stored all these values as key-value pairs in a dictionary.  Now, we just have to do this all again for the the next 99 beers.  Say what?  Well, that's where Python comes in.
 
-## 6. Extract *all* the data
+# 6. Extract *all* the data
 Putting everything in Section 5 into a loop, we can very quickly extract the data from the entire table.  The resulting loop could look like this:
 
 
@@ -477,13 +485,13 @@ We now have a list, `beers`, containing the data we extracted from the entire ta
 print(beers[0], '\n', beers[99])
 ```
 
-    {'rank': 1, 'name': 'Péché Mortel', 'brewery': 'Brasserie Dieu du Ciel!', 'style': 'American Double / Imperial Stout', 'abv': 9.5, 'score': 4.39, 'ratings': 5086} 
+    {'rank': 1, 'name': 'Péché Mortel', 'brewery': 'Brasserie Dieu du Ciel!', 'style': 'American Double / Imperial Stout', 'abv': 9.5, 'score': 4.39, 'ratings': 5087} 
      {'rank': 100, 'name': 'Rigor Mortis Abt', 'brewery': 'Brasserie Dieu du Ciel!', 'style': 'Quadrupel (Quad)', 'abv': 10.5, 'score': 3.91, 'ratings': 759}
     
 
 This is good, but we want to be great. You can see that accessing this dictionary is a bit ungainly, and that would make any sort of processing or analysis clumsy and painful.  Enter *pandas* stage left! 
 
-## 7. We heart pandas, and not only the fuzzy endangered variety
+# 7. We heart pandas, and not only the fuzzy endangered variety
 *pandas* is a library for data analysis in Python.  (Check out the [resources](#resources) section at the end for more information).  We're barely going to skim the surface of *pandas* in ths tutorial, but rest assured we will use it much more in future tutorials.
 
 Let's convert our `beers` dictionary into a *pandas* dataframe:
@@ -494,15 +502,22 @@ df = pd.DataFrame(beers)
 print(df.head())
 ```
 
-        abv                  brewery                                      name  rank  ratings  score                             style
-    0   9.5  Brasserie Dieu du Ciel!                              Péché Mortel     1     5086   4.39  American Double / Imperial Stout
-    1   9.5  Brasserie Dieu du Ciel!  Péché Mortel En Fût De Bourbon Américain     2      488   4.45  American Double / Imperial Stout
-    2   9.0                 Unibroue                           La Fin Du Monde     3    10020   4.31                            Tripel
-    3  10.0                 Unibroue                Unibroue 17 Grande Réserve     4     1140   4.24           Belgian Strong Dark Ale
-    4   7.0        Driftwood Brewery                               Fat Tug IPA     5      601   4.25                      American IPA
+        abv                  brewery                                      name  \
+    0   9.5  Brasserie Dieu du Ciel!                              Péché Mortel   
+    1   9.5  Brasserie Dieu du Ciel!  Péché Mortel En Fût De Bourbon Américain   
+    2   9.0                 Unibroue                           La Fin Du Monde   
+    3  10.0                 Unibroue                Unibroue 17 Grande Réserve   
+    4   7.0        Driftwood Brewery                               Fat Tug IPA   
+    
+       rank  ratings  score                             style  
+    0     1     5087   4.39  American Double / Imperial Stout  
+    1     2      488   4.45  American Double / Imperial Stout  
+    2     3    10020   4.31                            Tripel  
+    3     4     1140   4.24           Belgian Strong Dark Ale  
+    4     5      601   4.25                      American IPA  
     
 
-Very nice!  In one line we turned our list of dictionaries `beers` into a dataframe named `df`.  One of the really cool features of DataFrames is access to the `.head()` method.  This method displays the first 5 lines of the dataframe.  There is a similar method `.tail()` that prints out the last 5 lines of the dataframe.  You can also pass an integer *n* as an argument to these methods and it will display *n* lines instead of the default 5.
+Very nice!  In one line we turned our list of dictionaries `beers` into a dataframe named `df`.  One of the great features of DataFrames is access to the `.head()` method.  This method displays the first 5 lines of the dataframe.  There is a similar method `.tail()` that prints out the last 5 lines of the dataframe.  You can also pass an integer *n* as an argument to these methods and it will display *n* lines instead of the default 5.
 
 Notice the following:
 - the columns are arranged alphabetically
@@ -524,43 +539,66 @@ df = df.reindex(columns=columnTitles)
 print(df.head())
 ```
 
-                                              name                  brewery                             style   abv  score  ratings
-    rank                                                                                                                           
-    1                                 Péché Mortel  Brasserie Dieu du Ciel!  American Double / Imperial Stout   9.5   4.39     5086
-    2     Péché Mortel En Fût De Bourbon Américain  Brasserie Dieu du Ciel!  American Double / Imperial Stout   9.5   4.45      488
-    3                              La Fin Du Monde                 Unibroue                            Tripel   9.0   4.31    10020
-    4                   Unibroue 17 Grande Réserve                 Unibroue           Belgian Strong Dark Ale  10.0   4.24     1140
-    5                                  Fat Tug IPA        Driftwood Brewery                      American IPA   7.0   4.25      601
+                                              name                  brewery  \
+    rank                                                                      
+    1                                 Péché Mortel  Brasserie Dieu du Ciel!   
+    2     Péché Mortel En Fût De Bourbon Américain  Brasserie Dieu du Ciel!   
+    3                              La Fin Du Monde                 Unibroue   
+    4                   Unibroue 17 Grande Réserve                 Unibroue   
+    5                                  Fat Tug IPA        Driftwood Brewery   
+    
+                                     style   abv  score  ratings  
+    rank                                                          
+    1     American Double / Imperial Stout   9.5   4.39     5087  
+    2     American Double / Imperial Stout   9.5   4.45      488  
+    3                               Tripel   9.0   4.31    10020  
+    4              Belgian Strong Dark Ale  10.0   4.24     1140  
+    5                         American IPA   7.0   4.25      601  
     
 
 Much better!
 
-One last thing to quickly demonstrate one of the reasons we use *pandas*:
+One last thing to quickly demonstrate just one of the many reasons we use *pandas*:
 
 
 ```python
-print(df.describe())
+print(df.describe(include='all'))
 ```
 
-                  abv       score       ratings
-    count  100.000000  100.000000    100.000000
-    mean     8.272000    4.143100    513.520000
-    std      1.931613    0.110597   1311.998033
-    min      4.400000    3.910000     50.000000
-    25%      6.575000    4.067500     91.500000
-    50%      8.550000    4.140000    135.000000
-    75%     10.000000    4.202500    271.000000
-    max     12.200000    4.480000  10020.000000
+                                  name                  brewery         style  \
+    count                          100                      100           100   
+    unique                         100                       28            27   
+    top     Black Oak Ten Bitter Years  Brasserie Dieu du Ciel!  American IPA   
+    freq                             1                       16            18   
+    mean                           NaN                      NaN           NaN   
+    std                            NaN                      NaN           NaN   
+    min                            NaN                      NaN           NaN   
+    25%                            NaN                      NaN           NaN   
+    50%                            NaN                      NaN           NaN   
+    75%                            NaN                      NaN           NaN   
+    max                            NaN                      NaN           NaN   
+    
+                   abv       score       ratings  
+    count   100.000000  100.000000    100.000000  
+    unique         NaN         NaN           NaN  
+    top            NaN         NaN           NaN  
+    freq           NaN         NaN           NaN  
+    mean      8.272000    4.143100    513.540000  
+    std       1.931613    0.110597   1312.030106  
+    min       4.400000    3.910000     50.000000  
+    25%       6.575000    4.067500     91.500000  
+    50%       8.550000    4.140000    135.000000  
+    75%      10.000000    4.202500    271.000000  
+    max      12.200000    4.480000  10020.000000  
     
 
-*pandas* can quickly summarize key statistics for numeric values.  Cool!
+The method `.describe()`  summarizes key statistics for your data.  For example, of the 100 beers in our list, the inimitable Quebecois brewer [*Dieu du Ciel!*](http://dieuduciel.com/en/) is represented with 16 entries.  The lowest ABV is 4.4% and the highest a whopping 12.2%.  Cool!
 
-## Conclusion
+# Conclusion
 One basic truth of web scraping is that it is inherently unreliable.  Web content changes, quickly and often, and your code will soon break.  Case in point: in the time it took to create this tutorial, BeerAdvocate removed one column of their Top 100 tables, thus requiring a rewrite of my draft code.  Don't ever get discouraged; consider it a challenge to develop robust and flexible web scrapers.
 
-In Web Scraping: Part 1, we took a simple table from a webpage and converted its contents into a tabular form that is ready for analysis.  Tools like Beautiful Soup and *pandas* did most of the heavy lifting.  Our simple code has much room for improvement.  The next tutorial, Web Scraping: Part 2, will continue with a (slightly) more complicated web page.
+In **Web Scraping: Part 1**, we took a simple table from a web page and converted its contents into a tabular form that is ready for analysis.  Tools like Beautiful Soup and *pandas* did most of the heavy lifting.  Our simple code has much room for improvement.  In Web Scraping: Part 2, we will scrape a (slightly) more complicated web page.  For now, all this work has made me quite thirsty...
 
-Write a comment!  Let me know what you thought of this tutorial, and what you would like to see in future tutorials!
 
 ### Resources
 - Intro to HTML & CSS by [codecademy](https://www.codecademy.com/learn/learn-html-css)
