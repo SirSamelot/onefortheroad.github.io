@@ -69,9 +69,6 @@ p {
   line-height: 1.5;
   margin: 1.5em 0;
 }
-p a {
-  text-decoration: underline;
-}
 h1,
 h2,
 h3,
@@ -97,6 +94,7 @@ img::-moz-selection {
 }
 a {
   color: #404040;
+  border-bottom: 1px dashed #999;
 }
 a:hover,
 a:focus {
