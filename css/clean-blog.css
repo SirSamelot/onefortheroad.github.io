@@ -114,6 +114,7 @@ blockquote {
   font-size: 1em!important;
 }
 blockquote p { margin: 0; }
+blockquote + * { margin-top: 1em; }
 
 .about-signature {
   color: #333333;
