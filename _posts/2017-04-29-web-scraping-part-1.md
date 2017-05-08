@@ -597,7 +597,7 @@ The method `.describe()`  summarizes key statistics for your data.  For example,
 # Conclusion
 One basic truth of web scraping is that it is inherently unreliable.  Web content changes, quickly and often, and your code will soon break.  Case in point: in the time it took to create this tutorial, BeerAdvocate removed one column of their Top 100 tables, thus requiring a rewrite of my draft code.  Don't ever get discouraged; consider it a challenge to develop robust and flexible web scrapers.
 
-In **Web Scraping: Part 1**, we took a simple table from a web page and converted its contents into a tabular form that is ready for analysis.  Tools like Beautiful Soup and *pandas* did most of the heavy lifting.  Our simple code has much room for improvement.  In Web Scraping: Part 2, we will scrape a (slightly) more complicated web page.  For now, all this work has made me quite thirsty...
+In **Web Scraping: Part 1**, we took a simple table from a web page and converted its contents into a tabular form that is ready for analysis.  Tools like Beautiful Soup and *pandas* did most of the heavy lifting.  Our simple code has much room for improvement.  In **Web Scraping: Part 2**, we will scrape a (slightly) more complicated web page.  For now, all this work has made me quite thirsty...
 
 
 ### Resources
@@ -605,4 +605,4 @@ In **Web Scraping: Part 1**, we took a simple table from a web page and converte
 - Intro to Python by [codecademy](https://www.codecademy.com/learn/python)
 - Beautiful Soup [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - Google's Regular Expressions [tutorial](https://developers.google.com/edu/python/regular-expressions)
-- [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+- pandas tutorial, [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
