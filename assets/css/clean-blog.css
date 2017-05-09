@@ -334,9 +334,14 @@ blockquote + * { margin-top: 1em; }
   border-bottom-left-radius: 5px;
 }
 
-footer { padding: 50px 0 65px; }
+footer { padding: 1.5rem 0 4rem; }
 footer a { border-bottom: none; }
 footer a:hover, footer a:focus { border-bottom: none; }
+footer h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
 footer .list-inline {
   margin: 0;
   padding: 0;
