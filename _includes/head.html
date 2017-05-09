@@ -42,6 +42,12 @@
     <!-- Google Analytics -->
     {% include ga.html %}
 
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:image" content="{{ site.baseurl }}/assets/img/robot.svg" />
+
     <!-- Jekyll Feed meta tags -->
     {% feed_meta %}
 
