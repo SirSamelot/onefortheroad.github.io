@@ -1,2 +1,0 @@
-splitting (exploding) a list into additional rows:
-http://stackoverflow.com/questions/28442358/splitting-a-list-inside-a-pandas-dataframe

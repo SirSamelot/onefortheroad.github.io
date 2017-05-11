@@ -17,7 +17,7 @@ Hello! In Part 1 of this tutorial, we're going to learn how to:
 
 Since I love my country just as much as I love delicious fermented malt beverages, we'll be working with the *Top Rated Beers from Canada* as ranked by users on [BeerAdvocate](http://beeradvocate.com/lists/ca/).
 
-Part 2 of this tutorial shows how to scrape a slightly more complex page, and a future tutorial will cover how to merge the data from these two different sources into a single dataframe for future analysis.
+[Part 2]({% post_url 2017-05-10-web-scraping-part-2 %}) of this tutorial shows how to scrape a slightly more complex page, and a future tutorial will cover how to merge the data from these two different sources into a single dataframe for future analysis.
 
 ## Contents
 1. [Import Libraries](#1-import-libraries)
@@ -598,7 +598,7 @@ The method `.describe()`  summarizes key statistics for your data.  For example,
 # Conclusion
 One basic truth of web scraping is that it is inherently unreliable.  Web content changes, quickly and often, and your code will soon break.  Case in point: in the time it took to create this tutorial, BeerAdvocate removed one column of their Top 100 tables, thus requiring a rewrite of my draft code.  Don't ever get discouraged; consider it a challenge to develop robust and flexible web scrapers.
 
-In **Web Scraping: Part 1**, we took a simple table from a web page and converted its contents into a tabular form that is ready for analysis.  Tools like Beautiful Soup and *pandas* did most of the heavy lifting.  Our simple code has much room for improvement.  In **Web Scraping: Part 2**, we will scrape a (slightly) more complicated web page.  For now, all this work has made me quite thirsty...
+In **Web Scraping: Part 1**, we took a simple table from a web page and converted its contents into a tabular form that is ready for analysis.  Tools like Beautiful Soup and *pandas* did most of the heavy lifting.  Our simple code has much room for improvement.  In [**Web Scraping: Part 2**]({% post_url 2017-05-10-web-scraping-part-2 %}), we will scrape a (slightly) more complicated web page.  For now, all this work has made me quite thirsty...
 
 > Have a question about this topic, or a suggestion for a future topic?  Please, leave a comment below!
 {:.blockquote}
