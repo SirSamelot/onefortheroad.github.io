@@ -1,0 +1,507 @@
+,city,name,province
+0,['Edmonton'],Alley Kat Brewing Company,Alberta
+1,['Edmonton'],Amber's Brewing Company,Alberta
+2,['Calgary'],Banded Peak Brewing Company,Alberta
+3,['Banff'],Banff Ave. Brewing Co.,Alberta
+4,['Edmonton'],Bent Stick Brewing Co.,Alberta
+5,['Calgary'],Big Rock Brewery,Alberta
+6,['Lacombe'],Blindman Brewing,Alberta
+7,['Calgary'],Boiling Oar Brewing Company,Alberta
+8,['Bragg Creek'],Bragg Creek Brewing Company,Alberta
+9,['Turner Valley'],Brauerei Fahr,Alberta
+10,"['Calgary', 'Edmonton']",Brewsters Brewing Company,Alberta
+11,['Calgary'],Caravel Craft Brewery,Alberta
+12,['Calgary'],Cold Garden Beverage Company,Alberta
+13,['Lethbridge'],Coulee Brewing Co.,Alberta
+14,['Calgary'],The Dandy Brewing Company,Alberta
+15,['Calgary'],Goat Locker Brewing Co.,Alberta
+16,['Canmore'],The Grizzly Paw Brewing Company,Alberta
+17,['Cochrane'],Half Hitch Brewing Company,Alberta
+18,['Medicine Hat'],Hell's Basement Brewery,Alberta
+19,['St. Albert'],Hog's Head Brewing Company,Alberta
+20,['Jasper'],Jasper Brewing Company,Alberta
+21,['Calgary'],Last Best Brewing & Distilling,Alberta
+22,['Calgary'],Minhas Micro Brewery,Alberta
+23,['Camrose'],Norsemen Brewing Co.,Alberta
+24,['Olds'],Olds College Brewery,Alberta
+25,['Calgary'],Outcast Brewing,Alberta
+26,['Edmonton'],Polar Park Brewing Company,Alberta
+27,['Edgerton'],Ribstone Creek Brewery,Alberta
+28,['Edmonton'],Situation Brewing,Alberta
+29,['Okotoks'],Six Corners Brew Works,Alberta
+30,['Lethbridge'],Theoretically Brewing,Alberta
+31,['Calgary'],Tool Shed Brewing Company,Alberta
+32,['Calgary'],Trolley Five Restaurant and Brewery,Alberta
+33,['Red Deer'],Troubled Monk Brewery,Alberta
+34,['Calgary'],Village Brewery,Alberta
+35,['Calgary'],Wild Rose Brewery,Alberta
+36,['Fort McMurray'],Wood Buffalo Brewing Co.,Alberta
+37,['Edmonton'],Yellowhead Brewing Company,Alberta
+38,['Vancouver'],33 Acres Brewing Co.,British Columbia
+39,['Squamish'],"""A"" Frame Brewing Co.",British Columbia
+40,[],Andina Brewing Co.,British Columbia
+41,['Invermere'],Arrowhead Brewing Co.,British Columbia
+42,['Victoria'],Axe and Barrel Brewing Co.,British Columbia
+43,[],Backroads Brewing Co.,British Columbia
+44,['Penticton'],Bad Tattoo Brewing,British Columbia
+45,['Quesnel'],Barkerville Brewing Co.,British Columbia
+46,['Campbell River'],Beach Fire Brewing,British Columbia
+47,['Surrey'],Big Ridge Brewing Co.],British Columbia
+48,['Vancouver'],Big Rock Urban Brewery,British Columbia
+49,['Kelowna'],Big Surf Brew Co.,British Columbia
+50,['North Vancouver'],Black Kettle Brewing Co.,British Columbia
+51,['Delta'],Black Loon Brewing,British Columbia
+52,['Kelowna'],BNA Brewing Co.,British Columbia
+53,['Vancouver'],Bomber Brewing,British Columbia
+54,['Kelowna'],Bone Brewing Co.,British Columbia
+55,['Vancouver'],Bowen Island Brewing Co.,British Columbia
+56,['Kelowna'],Boundary Brewing Co.,British Columbia
+57,['Vancouver'],Brassneck Brewery,British Columbia
+58,['Whistler'],BrewHouse,British Columbia
+59,['North Vancouver'],Bridge Brewing Company,British Columbia
+60,['Vancouver'],Callister Brewing Co.,British Columbia
+61,['Penticton'],Cannery Brewing Co.,British Columbia
+62,['Victoria'],Canoe Brewery & Pub,British Columbia
+63,['Aldergrove'],Canuck Empire Brewing Co.,British Columbia
+64,['Saanichton'],Category 12 Brewing,British Columbia
+65,['Surrey'],Central City Brewing Co.,British Columbia
+66,['Chilliwack'],Chaos and Solace Craft Brew Co.,British Columbia
+67,['Vancouver'],Coal Harbour Brewing,British Columbia
+68,['Creston'],Columbia Brewery,British Columbia
+69,['Sorrento'],Crannog Ales,British Columbia
+70,[],CrossRoads Brewing,British Columbia
+71,['Burnaby'],Dageraad Brewing,British Columbia
+72,['Aldergrove'],Dead Frog Brewery,British Columbia
+73,['North Vancouver'],Deep Cove Brewers,British Columbia
+74,['Vancouver'],Doan's Craft Brewing Co.,British Columbia
+75,['Vancouver'],Dockside Brewing Co.,British Columbia
+76,['Vancouver'],Dogwood Brewing,British Columbia
+77,['Victoria'],Driftwood Brewing Co.,British Columbia
+78,['Vancouver'],East Van Brewing,British Columbia
+79,['Vancouver'],Faculty Brewing Co.,British Columbia
+80,['Nanaimo'],Fat Cat Beer Co.,British Columbia
+81,['Fernie'],Fernie Brewing Co.,British Columbia
+82,['Abbotsford'],Fieldhouse Brewing Co.,British Columbia
+83,['Oliver'],Firehall Brewery,British Columbia
+84,['Pitt Meadows'],Foamers' Folly Brewing Co.,British Columbia
+85,['Courtney'],Forbidden Brewing Co.,British Columbia
+86,['Victoria'],Four Mile Brewing Co.,British Columbia
+87,['Delta'],Four Winds Brewing Co.,British Columbia
+88,['Richmond'],Fuggles & Warlock Craftworks,British Columbia
+89,['Courtenay'],Gladstone Brewing Co.,British Columbia
+90,['Vancouver'],Granville Island Brewing,British Columbia
+91,['North Vancouver'],Green Leaf Brewing Co.,British Columbia
+92,['Salt Spring Island'],Gulf Islands Brewing,British Columbia
+93,['North Vancouver'],Hearthstone Brewery,British Columbia
+94,['Vancouver'],Hell's Gate Brewing Co.,British Columbia
+95,['Whistler'],High Mountain Brewing Co.,British Columbia
+96,['Squamish'],Howe Sound Brewing Co.,British Columbia
+97,['Victoria'],Hoyne Brewing Co.,British Columbia
+98,['Kelowna'],Kettle River Brewing Co.,British Columbia
+99,['Victoria'],Lighthouse Brewing Co.,British Columbia
+100,['Vancouver'],Luppolo Brewing Co.,British Columbia
+101,['Vancouver'],Main Street Brewing Co.,British Columbia
+102,['Maple Ridge'],Maple Meadows Brewing Co.,British Columbia
+103,['Vernon'],Marten Brewing Co.,British Columbia
+104,['Kelowna'],Mill Creek Brewery,British Columbia
+105,['Mission'],Mission Springs Brewing Co.,British Columbia
+106,['Port Moody'],Moody Ales,British Columbia
+107,['Victoria'],Moon Under Water Brewery,British Columbia
+108,['Kimberley'],Mozart Brewing Co.,British Columbia
+109,['Revelstoke'],Mt. Begbie Brewing Co.,British Columbia
+110,['Nelson'],Nelson Brewing Co.,British Columbia
+111,['Kamloops'],Noble Pig Brewing Co.,British Columbia
+112,['Prince George'],Pacific Western Brewing Co.,British Columbia
+113,['Vancouver'],Parallel 49 Brewing,British Columbia
+114,[' Gibsons '],Persephone Brewing,British Columbia
+115,['Victoria'],Phillips Brewing Company,British Columbia
+116,['Vancouver'],Postmark Brewing,British Columbia
+117,['Vancouver'],Powell Street Craft Brewery,British Columbia
+118,['Abbotsford'],Ravens Brewing Company,British Columbia
+119,['Vancouver'],R & B Brewing Co.,British Columbia
+120,['Surrey'],Russell Brewing Company,British Columbia
+121,['various'],Sapporo Beer - Sleeman/Okanagan Springs,British Columbia
+122,['Sooke'],Sooke Oceanside Brewery,British Columbia
+123,['Victoria'],Spinnakers Gastro Brewpub,British Columbia
+124,['Vancouver'],Steamworks Brewing Company,British Columbia
+125,['New Westminster'],Steel & Oak Brewing Co.,British Columbia
+126,['Vancouver'],Strange Fellows Brewing Company,British Columbia
+127,['Vancouver'],Storm Brewing,British Columbia
+128,['Victoria'],Swans Brewery,British Columbia
+129,['Penticton'],Tin Whistle Brewing Company,British Columbia
+130,['Tofino'],Tofino Brewing Co.,British Columbia
+131,['Nelson'],Torchlight Brewing Company,British Columbia
+132,['Powell River'],Townsite Brewing,British Columbia
+133,['Kelowna'],Tree Brewing Company,British Columbia
+134,['Delta'],Turning Point Brewery,British Columbia
+135,['Port Moody'],Twin Sails Brewing,British Columbia
+136,['Victoria'],Vancouver Island Brewery,British Columbia
+137,['Whistler'],Whistler Brewing Company,British Columbia
+138,['White Rock'],White Rock Beach Beer Company,British Columbia
+139,['Surrey'],White Rock Brewing,British Columbia
+140,['Nanaimo'],White Sails Brewing,British Columbia
+141,['Nanaimo'],Wolf Brewing Company,British Columbia
+142,['Vancouver'],Yaletown Brewing Co.,British Columbia
+143,['Port Moody'],Yellow Dog Brewing Co.,British Columbia
+144,"['Winnipeg', 'defunct']",Agassiz Brewing,Manitoba
+145,['Muskoka'],Farmery Estate Brewery,Manitoba
+146,['Winnipeg'],Fort Garry Brewing Company,Manitoba
+147,['Winnipeg'],Half Pints Brewing Company,Manitoba
+148,['Winnipeg'],Shrugging Doctor Brewing Company,Manitoba
+149,['Winnipeg'],Barn Hammer Brewing,Manitoba
+150,['Winnipeg'],Little Brown Jug Brewing Company,Manitoba
+151,['Winnipeg'],PEG Beer Co.,Manitoba
+152,['Winnipeg'],Torque Brewing,Manitoba
+153,"[""St. John's""]",The Bennett Brewing Company,Newfoundland & Labrador
+154,"[""St. John's""]",Yellowbelly Brewery,Newfoundland & Labrador
+155,"[""St. John's""]",Lindberg Brewing Company Limited,Newfoundland & Labrador
+156,"[""St. John's""]",Kavanaugh and Company,Newfoundland & Labrador
+157,"[""St. John's""]",Newfoundland Brewery Limited,Newfoundland & Labrador
+158,"[""St. John's""]",Bavarian Brewing Company Limited,Newfoundland & Labrador
+159,"[""St. John's""]",Molson Brewery,Newfoundland & Labrador
+160,"[""St. John's""]",Labatt Brewery,Newfoundland & Labrador
+161,['Stephenville'],Atlantic Brewery,Newfoundland & Labrador
+162,"[""St. John's""]",Carling O'Keefe Brewery,Newfoundland & Labrador
+163,['Stephenville'],Bison Brewing Company,Newfoundland & Labrador
+164,['Stephenville'],Labatt Brewing Company,Newfoundland & Labrador
+165,['Carbonear'],Freshwater Brewing Company,Newfoundland & Labrador
+166,['Mount Pearl'],Storm Brewing,Newfoundland & Labrador
+167,"[""St. John's""]",Quidi Vidi Brewing Company,Newfoundland & Labrador
+168,['Port Rexton'],Port Rexton Brewing Company,Newfoundland & Labrador
+169,['Pasadena'],Western Newfoundland Brewing Company,Newfoundland & Labrador
+170,"[""St. John's""]",Mill Street Brewpub,Newfoundland & Labrador
+171,['Corner Brook'],Bootleg Brew Company,Newfoundland & Labrador
+172,['Yellowknife'],Northwest Territories Brewing Co.,Northwest Territories
+173,['Halifax'],Alexander Keith's Brewery,Nova Scotia
+174,['Halifax'],Oland Brewery,Nova Scotia
+175,['Halifax'],Granite Brewery,Nova Scotia
+176,['Halifax'],Garrison Brewing Company,Nova Scotia
+177,['Halifax'],Propeller Brewing Company,Nova Scotia
+178,['Liverpool'],Hell Bay Brewing Company,Nova Scotia
+179,['Nyanza'],Big Spruce Brewing,Nova Scotia
+180,['Halifax'],North Brewing Company,Nova Scotia
+181,['Shelburne'],Boxing Rock Brewing Company,Nova Scotia
+182,['Lyons Brook'],Uncle Leo's Brewery,Nova Scotia
+183,['Somerset'],Bad Apple Brewhouse,Nova Scotia
+184,['Tatamagouche'],Tatamagouche Brewing Company,Nova Scotia
+185,['Sydney'],Breton Brewing Co.,Nova Scotia
+186,['Halifax'],Good Robot,Nova Scotia
+187,['Halifax'],Unfiltered,Nova Scotia
+188,['Saint John'],Moosehead Brewery,New Brunswick
+189,['Fredericton'],Picaroons Traditional Ales,New Brunswick
+190,['Moncton'],Pump House Brewery,New Brunswick
+191,['Fredericton'],Grimross Brewing,New Brunswick
+192,['Edmundston'],Brasseurs du Petit-Sault,New Brunswick
+193,['Nackawic'],Big Axe Brewery,New Brunswick
+194,['Whitby'],5 Paddles Brewing Co.,Ontario
+195,['St. Catherines'],20 Valley Brewery,Ontario
+196,['Waterloo'],Abe Erb Brewery & Restaurant,Ontario
+197,['Oshawa'],All or Nothing Brewhouse,Ontario
+198,['Markham'],Amber Brewery,Ontario
+199,['Toronto'],Amsterdam Brewhouse,Ontario
+200,['Toronto'],Amsterdam Brewing Co.,Ontario
+201,['Newmarket'],Arch Brewing Co.,Ontario
+202,['Beckwith'],Ashton Brewing Co.,Ontario
+203,['Stoney Creek'],Bamboo Beer Co.,Ontario
+204,['Bancroft'],Bancroft Brewing Co.,Ontario
+205,['Kingsville'],Banded Goose Brewing Co.,Ontario
+206,['Picton'],Barley Days Brewery,Ontario
+207,['Uxbridge'],Barn Door Beverage Co.,Ontario
+208,['Barrie'],Barnstormer Brewing Co.,Ontario
+209,['Erieau'],Bayside Brewing Co.,Ontario
+210,['Vankleek Hill'],Beau's All Natural Brewing Co.,Ontario
+211,['London'],Beer Lab London,Ontario
+212,['Brantford'],Bell City Brewing Co.,Ontario
+213,['Toronto'],Bellwoods Brewery,Ontario
+214,['Ottawa'],Bentley Brewers,Ontario
+215,['Ottawa'],Beyond the Pale Brewing Co.,Ontario
+216,['Ottawa'],Bicycle Craft Brewery,Ontario
+217,['Toronto'],Bierbrier Brewing Inc.,Ontario
+218,['Ottawa'],Big Rig Brewery & Kitchen,Ontario
+219,['Kanata'],Big Rig Brewery & Taproom,Ontario
+220,['Toronto'],Black Creek Historic Brewery,Ontario
+221,['Mitchell'],Black Donnellys Brewing Co.,Ontario
+222,['Etobicoke'],Black Oak Brewing Co.,Ontario
+223,['Stratford'],Black Swan Brewing Co.,Ontario
+224,['St. Jacobs'],Block Three Brewing Co.,Ontario
+225,['Toronto'],Blood Brothers Brewing,Ontario
+226,['Simcoe'],Blue Elephant Craft Brew House,Ontario
+227,['Bobcaygeon'],Bobcaygeon Brewing Co.,Ontario
+228,['Hamilton'],Bomb Brewing Co.,Ontario
+229,['Minden'],Boshkung Brewing Co.,Ontario
+230,['Embrun'],Brasserie Étienne Brûlé,Ontario
+231,['Windsor'],Brew Windsor,Ontario
+232,['Waterloo'],Brick Brewing Co.,Ontario
+233,['Ridgeway'],Brimstone Brewing Co.,Ontario
+234,['Ottawa'],Broadhead Brewing Co.,Ontario
+235,['Whitby'],Brock Street Brewing Co.,Ontario
+236,['Ottawa'],Broken Stick Brewing Co.,Ontario
+237,['Guelph'],Brothers Brewing Co.,Ontario
+238,['Hamilton'],Brux House,Ontario
+239,['Toronto'],Burdock Brewing,Ontario
+240,['Hastings County'],Bush Pilot Brewing Co.,Ontario
+241,['Ottawa'],Bytown Brewery,Ontario
+242,['Calabogie'],Calabogie Brewing Co.,Ontario
+243,['Oakville'],Cameron's Brewing Co.,Ontario
+244,['Pakenham'],Cartwright Springs Brewery,Ontario
+245,['Casselman'],Cassel Brewery Co. Ltd,Ontario
+246,['North Bay'],Cecils Brewhouse & Kitchen,Ontario
+247,['Toronto'],C'est What?,Ontario
+248,['Toronto'],Cheetah International Brewers Inc.,Ontario
+249,['Toronto'],Cheshire Valley Brewing,Ontario
+250,['Camp'],Churchkey Brewing Co.,Ontario
+251,['Hamilton'],Clifford Brewing Co.,Ontario
+252,['Ottawa'],Clock Tower Brewpub,Ontario
+253,['Hamilton'],Collective Arts Brewing,Ontario
+254,['Collingwood'],"Collingwood Brewery, The",Ontario
+255,['Etobicoke'],Cool Beer Brewing Co. Inc.,Ontario
+256,['Wellington'],Country Road Beer Co.,Ontario
+257,['Stittsville'],Covered Bridge Brewing Co.,Ontario
+258,['Windsor'],Craft Heads Brewing Co.,Ontario
+259,['Creemore'],Creemore Springs,Ontario
+260,['Kitchener'],Descendants Beer & Beverage Co.,Ontario
+261,['Ottawa'],Dominion City Brewing Co.,Ontario
+262,['Toronto'],Double Trouble Brewing Co.,Ontario
+263,['Toronto'],Duggan's Brewing,Ontario
+264,['Pickering'],Durham Brewing Co.,Ontario
+265,['Elora'],Elora Brewing Co.,Ontario
+266,['Niagara-on-the-Lake'],"Exchange Brewery, The",Ontario
+267,['Barrie'],Flying Monkeys Craft Brewery,Ontario
+268,['Toronto'],Folly Brewpub,Ontario
+269,['London'],Forked River Brewing Co.,Ontario
+270,['Ganonoque'],Gananoque Brewing Co.,Ontario
+271,['Hamilton'],Garden Brewers,Ontario
+272,['Parry Sound'],Georgian Lanes,Ontario
+273,['Ottawa'],Gongshow Beauty Beer,Ontario
+274,['Cambridge'],Grand River Brewing,Ontario
+275,['Toronto'],Granite Brewery,Ontario
+276,['Etibicoke'],Great Lakes Brewery,Ontario
+277,['Bracebridge'],Griffin Gastropub,Ontario
+278,['Haliburton'],Haliburton Highlands Brewing Co.,Ontario
+279,['Hamilton'],"Hamilton Brewery, The",Ontario
+280,['Toronto'],Heady Brew Co.,Ontario
+281,['Toronto'],Henderson Brewing Co.,Ontario
+282,['South River'],Highlander Brew Co.,Ontario
+283,['Toronto'],High Park Brewery,Ontario
+284,['Niagara-on-the-Lake'],High Road Brewing Co.,Ontario
+285,['Orangeville'],Hockley Valley Brewing Co.,Ontario
+286,['Ottawa'],HogsBack Brewing Co.,Ontario
+287,['Toronto'],Hogtown Brewers,Ontario
+288,['Toronto'],Hometown Brew,Ontario
+289,['Brampton'],Hop City Brewing Co.,Ontario
+290,['Toronto'],House Ales,Ontario
+291,['Toronto'],Indie Alehouse Brewing Co.,Ontario
+292,['Waterloo'],Innocente Brewing Co.,Ontario
+293,['Toronto'],Junction Craft Brewing,Ontario
+294,['Fonthill'],Kame & Kettle Beer Works,Ontario
+295,['Toronto'],Kensington Brewing Co.,Ontario
+296,['Ottawa'],Kichesippi Beer Co.,Ontario
+297,['Owen Sound'],Kilannan Brewing Co.,Ontario
+298,['Kingston'],Kingston Brewing Co.,Ontario
+299,['Baysville'],Lake of Bays Brewing Co.,Ontario
+300,['Kenora'],Lake of the Woods Brewing Co.,Ontario
+301,['Prince Edward County'],Lake on the Mountain Brewing Co.,Ontario
+302,['Vaughan'],Lake Wilcox Brewing Co.,Ontario
+303,['Toronto'],Landsdowne Brewery,Ontario
+304,['Toronto'],Left Field Brewery,Ontario
+305,['Toronto'],Liberty Village Brewing Co.,Ontario
+306,['Waterloo'],Lion Brewery Restaurant,Ontario
+307,['London'],London Brewing Co-operative,Ontario
+308,['Toronto'],Longslice Brewing Co.,Ontario
+309,['Colchester'],Lonsbery Farms Brewing Co.,Ontario
+310,['Toronto'],Lost Craft Beer,Ontario
+311,['Ottawa'],Lowertown Brewery,Ontario
+312,['Toronto'],Louis Cifer Brew Works,Ontario
+313,['Bath'],MacKinnon Brothers Brewing,Ontario
+314,['Hanover'],MacLean's Ales Inc.,Ontario
+315,['Creemore'],Mad & Noisy Brewing,Ontario
+316,['Vaughan'],Magnotta Brewery,Ontario
+317,['Bowmanville'],Manantler Brewing Co.,Ontario
+318,['Little Current'],Manitoulin Brewing Co.,Ontario
+319,['Toronto'],Mascot Brewery,Ontario
+320,['St. Catherines'],Merchant Alehouse,Ontario
+321,['Midland'],Midland Beer Works,Ontario
+322,"['Production', 'Scarborough']",Mill St. Brewery,Ontario
+323,['Ottawa'],Mill St. Brewpub Ottawa,Ontario
+324,['Toronto'],Mill St. Brewpub Toronto,Ontario
+325,['Windsor'],Motor Craft Ales,Ontario
+326,['Toronto'],Muddy York Brewing Co.,Ontario
+327,['Bracebridge'],Muskoka Brewery,Ontario
+328,['Neustadt'],Neustadt Springs Brewery,Ontario
+329,['Nixon'],New Limburg Brewing Co.,Ontario
+330,['North Bay'],New Ontario Brewing Co.,Ontario
+331,['Niagara Falls'],Niagara Brewing Co.,Ontario
+332,['Niagara-on-the-Lake'],Niagara College Teaching Brewery,Ontario
+333,['Niagara-on-the-Lake'],Niagara Oast House Brewers,Ontario
+334,['Burlington'],Nickel Brook Brewing Co.,Ontario
+335,['Ottawa'],Nita Brewing Co.,Ontario
+336,['Cobourg'],Northumberland Hills Brewery,Ontario
+337,['Collingwood'],North Winds Brew House & Eatery,Ontario
+338,['Simcoe'],O-Fresh Brewery,Ontario
+339,['Mississauga'],Old Credit Brewing Co. Ltd.,Ontario
+340,['Port Perry'],Old Flame Brewing Co.,Ontario
+341,['Toronto'],Old Tomorrow Ltd.,Ontario
+342,['Peterborough'],"Olde Stone Brewing Co., The",Ontario
+343,['Toronto'],Ontario Beer Co.,Ontario
+344,['Milton'],Orange Snail Brewing Co.,Ontario
+345,['Southampton'],Outlaw Brew Co.,Ontario
+346,['Sault Sainte Marie'],Outspoken Brewing Ltd.,Ontario
+347,['Burlington'],Pepperwood Bistro & Brew House,Ontario
+348,['Perth'],Perth Brewing Co.,Ontario
+349,['Toronto'],Pitschfork Brewing,Ontario
+350,['Pickering'],Practically Irish Brewing Ltd.,Ontario
+351,['Peterborough'],Publican House Brewery,Ontario
+352,['Toronto'],Radical Road Brewing Co.,Ontario
+353,['St. Thomas'],Railway City Brewing,Ontario
+354,['Toronto'],Rainhard Brewing Co.,Ontario
+355,['La Salette'],Ramblin' Road Brewery Farm,Ontario
+356,['Sarnia'],Refines Fool Brewing,Ontario
+357,['Barrie'],Redline Brewhouse,Ontario
+358,['Guelph'],Royal City Brewing Co.,Ontario
+359,['Cornwall'],Rurban Brewing,Ontario
+360,['Gravenhurst'],Sawdust City Brewing Co.,Ontario
+361,['Toronto'],Shacklands Brewery,Ontario
+362,['Toronto'],Shillow Beer Co.,Ontario
+363,['Collingwood'],Side Launch Brewing Co.,Ontario
+364,['Niagara-on-the-Lake'],Silversmith Brewing,Ontario
+365,['Perth'],Skeena Brewing Co.,Ontario
+366,['Thunder Bay'],Sleeping Giant Brewery,Ontario
+367,['Peterborough'],Smithworks Brewing Co.,Ontario
+368,['Toronto'],Snowman Brewing Co.,Ontario
+369,['Toronto'],Spearhead Brewing Co.,Ontario
+370,['Gore Bay'],Split Rail Brewing Co.,Ontario
+371,['Pembroke'],Square Timber Brewing Co.,Ontario
+372,['Toronto'],St. Mary Axe,Ontario
+373,['Sudbury'],Stack Brewing Co.,Ontario
+374,['Ottawa'],Stalwart Brewing Co.,Ontario
+375,['Toronto'],Steam Whistle Brewery,Ontario
+376,['Kingston'],Stone City Ales,Ontario
+377,['Guelph'],Stone Hammer Brewing,Ontario
+378,['Stouffville'],Stouffville Brewing Co.,Ontario
+379,['Stratford'],Stratford Brewing Co.,Ontario
+380,['Strathroy'],Strathroy Brewing Co.,Ontario
+381,['Toronto'],Sweetgrass Brewing Co.,Ontario
+382,['Niagara Falls'],Syndicate Restaurant & Brewery,Ontario
+383,['Niagara Falls'],Taps Brewhouse & Grill,Ontario
+384,['Thornbury'],Thornbury Beverage Co.,Ontario
+385,['Tobermory'],Tobermory Brewing & Grilling Co.,Ontario
+386,['London'],Toboggan Brewing Co.,Ontario
+387,['Ottawa'],Tooth and Nail Brewing Co.,Ontario
+388,['Brampton'],Tracks Brewpub,Ontario
+389,['Oakville'],Trafalgar Brewing Co.,Ontario
+390,['Toronto'],Triple Bogey Brewing Co.,Ontario
+391,['Ottawa'],Tuque de Broue,Ontario
+392,['Ottawa'],Turtle Island Brewing Co.,Ontario
+393,['Sault Sainte Marie'],Union Jack Brewing Co.,Ontario
+394,['Ottawa'],Waller Street Brewing,Ontario
+395,['Windsor'],Walkerville Brewery,Ontario
+396,['Waterloo'],Waterloo Brewing Co.,Ontario
+397,['Ottawa'],"Weather Brewery, The",Ontario
+398,['Guelph'],Wellington Brewery,Ontario
+399,['Ottawa'],Whiprsnapr Brewing Co.,Ontario
+400,['Forester Falls'],Whitewater Brewing Co.,Ontario
+401,['Trenton'],Wild Card Brewing Co.,Ontario
+402,['Cobourg'],William Street Beer Co.,Ontario
+403,['Toronto'],Woodhouse Brewing Co.,Ontario
+404,['Charlottetown'],The Gahan Brewery,Prince Edward Island
+405,['Charlottetown'],PEI Brewing Company,Prince Edward Island
+406,['Rose Valley'],Barnone Brewery,Prince Edward Island
+407,['Charlottetown'],Upstreet Craft Brewing,Prince Edward Island
+408,['Ellerslie'],Moth Lane Brewing,Prince Edward Island
+409,['Saskatoon'],Great Western Brewing Company,Saskatchewan
+410,['Saskatoon'],Paddock Wood Brewing Company,Saskatchewan
+411,['Regina'],District Brewing Company,Saskatchewan
+412,['Saskatoon'],Prairie Sun Brewery,Saskatchewan
+413,['Nokomis'],Nokomis Craft Ales,Saskatchewan
+414,['Swift Current'],Black Bridge Brewery,Saskatchewan
+415,['Regina'],Rebellion Brewing,Saskatchewan
+416,['Saskatoon'],9 Mile Legacy Brewing Company,Saskatchewan
+417,[],Churchill Brewing Company,Saskatchewan
+418,['first brewer in Canada in New France'],Jesuit Brother Ambroise,Quebec
+419,[],Louis Prud'homme's brewery just outside the walls of Fort Ville-Marie,Quebec
+420,"[""The King's Brewery""]",La Brasserie du Roi,Quebec
+421,[],Molson,Quebec
+422,"[""L'Étang-du-Nord""]",À l'abri de la Tempête,Quebec
+423,['Joliette'],Albion,Quebec
+424,['Joliette'],L'alchimiste,Quebec
+425,"['Lac Beauport', 'Sainte-Foy']",Archibald,Quebec
+426,"[""Val d'Espoir""]",Auval,Quebec
+427,['Drummondville'],Bar Centre Ale Artisan Brasseur,Quebec
+428,['Québec city'],La Barberie,Quebec
+429,['Val-David'],Le Baril Roulant,Quebec
+430,['Amos'],Belgh Brasse,Quebec
+431,['Rimouski'],"Le Bien, le Malt",Quebec
+432,['Saint-Alexis-des-Monts'],Les Bières de la Nouvelle-France,Quebec
+433,['Sherbrooke'],Boquébière - microbrasserie de Sherbrooke,Quebec
+434,['Saint-Jérôme'],Brasserie Dieu du ciel!,Quebec
+435,['Dunham'],Brasserie Dunham,Quebec
+436,['Québec city'],La Brasserie Générale,Quebec
+437,['Montréal'],Brasserie McAuslan,Quebec
+438,['Shawinigan'],Les Brasseurs de la Mauricie,Quebec
+439,['Franklin'],Brasserie Saint-Antoine-Abbée,Quebec
+440,['Montréal'],Brasserie du Vieux Montréal,Quebec
+441,['Dunham'],Brasseurs et Frères,Quebec
+442,['Saint-Joseph-de-Ham-Sud'],Les Brasseurs du Hameau,Quebec
+443,['Saint-Eustache'],Brasseurs illimités,Quebec
+444,['Saint-Hyacinthe'],Brasseurs du Monde,Quebec
+445,['Blainville'],Les Brasseurs du Nord,Quebec
+446,['Gatineau'],Brasseurs de l'Outaouais,Quebec
+447,['Montréal'],Les Brasseurs RJ,Quebec
+448,['Gatineau'],Les Brasseurs du Temps,Quebec
+449,['Bromont'],Brouemont,Quebec
+450,['Amqui'],La Captive,Quebec
+451,['St-Félicien'],La Chouape,Quebec
+452,['Montréal'],La Compagnie de Bière Brisset,Quebec
+453,['Lévis'],Corsaire,Quebec
+454,['Mont-Tremblant'],La Diable,Quebec
+455,['Saint-Jérôme'],Dieu du ciel!,Quebec
+456,['Montréal'],L'Espace Public,Quebec
+457,['Matane'],La Fabrique,Quebec
+458,['Rivière-du-Loup'],Aux Fous Brassant,Quebec
+459,['Frampton'],Frampton Brasse,Quebec
+460,['Trois-Rivières'],Les Frères Houblons,Quebec
+461,['Saint-Tite'],À la Fût,Quebec
+462,['Gatineau'],Gainsbourg,Quebec
+463,['Boisbriand'],Goudale,Quebec
+464,['Granby'],Le Grimoire,Quebec
+465,['Jonquière'],La Gueule de Bois,Quebec
+466,['Jonquière'],HopEra Microbrasserie et Pizzeria,Quebec
+467,"[""L'Assomption""]",Hopfenstark,Quebec
+468,['Québec city'],L'inox,Quebec
+469,[],"Labatt Brewing Company, in LaSalle since 1954",Quebec
+470,['Lennoxville'],Lion d'Or,Quebec
+471,['Québec city'],La Korrigane,Quebec
+472,['Sherbrooke'],La Mare au Diable,Quebec
+473,['Bromont'],"La Micro de Bromont, anciennement Le Chaudron",Quebec
+474,['Sainte-Anne-de-Beaupré'],Microbrasserie des Beaux-Prés,Quebec
+475,"['Pub de la Contrée', 'Buckland', 'Bellechasse']",Microbrasserie de Bellechasse,Quebec
+476,['Rigaud'],Microbrasserie le Castor,Quebec
+477,['Baie-Saint-Paul'],Microbrasserie Charlevoix,Quebec
+478,['Coaticook'],Microbrasserie de Coaticook,Quebec
+479,['Dolbeau-Mistassini'],Microbrasserie le Coureur des Bois,Quebec
+480,['Saint-Gédéon'],Microbrasserie du Lac-Saint-Jean,Quebec
+481,['Mont-Laurier'],Microbrasserie du Lièvre,Quebec
+482,['Salaberry-de-Valleyfield'],Microbrasserie Maltéus,Quebec
+483,['Magog'],Microbrasserie la Memphrée,Quebec
+484,['Québec city'],Microbrasserie la Moustache,Quebec
+485,"[""Île d'Orléans""]","Microbrasserie d'Orléans, Pub Le Mitan",Quebec
+486,"[""Val d'Or""]",Microbrasserie Le Prospecteur,Quebec
+487,['Baie-Comeau'],Microbrasserie St-Pancrace,Quebec
+488,['Montréal'],Molson,Quebec
+489,['Tingwick'],Multi-Brasses,Quebec
+490,['Carleton-sur-Mer'],Le Naufrageur,Quebec
+491,['St-Eustache'],Noire & Blanche,Quebec
+492,['Anse-à-Beaufils'],Pit Caribou,Quebec
+493,['Sherbrooke'],Siboire,Quebec
+494,['Saint-Georges'],La Société,Quebec
+495,['Québec city'],La Souche,Quebec
+496,['Mont-Tremblant'],St-Arnould,Quebec
+497,['Sainte-Thèrèse'],Le Saint-Graal,Quebec
+498,['Rouyn-Noranda'],Le Trèfle Noir,Quebec
+499,['Chicoutimi'],La Tour à Bières,Quebec
+500,['Brossard'],Les Trois Mousquetaires,Quebec
+501,"['Sapporo', 'Chambly']",Unibroue,Quebec
+502,"['Jonquière', 'Chicoutimi', 'Québec']",La Voie Maltée,Quebec
+503,"['Quebec City', 'Laval', 'Brossard']","Les 3 Brasseurs,",Quebec
+504,['Whitehorse'],Yukon Brewing Co.,Yukon
+505,['Whitehorse'],Winterlong Brewing Co.,Yukon
