@@ -140,6 +140,8 @@ blockquote + * { margin-top: 1em; }
   padding-top: 0.5em;
 }
 
+#disqus_thread { margin-top: 2em; }
+
 .jumbotron { margin-bottom: 50px; }
 .jumbotron .site-heading,
 .jumbotron .post-heading,
