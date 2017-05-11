@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Web Scraping Part 2"
+title:  "Web Scraping: Part&nbsp2"
 subtitle:   "Adventures with Wikipedia"
 date:   2017-05-10 20:18:03
 author:     "Sam Wong"
