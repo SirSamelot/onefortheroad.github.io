@@ -20,7 +20,8 @@ print('[INFO] Input:\t{}'.format(markdown_fname))
 title = ftitle.replace('-', ' ').title()
 
 # If a date is passed in, use that. Otherwise use current date
-if (sys.argv[2]):
+try:
+    sys.argv[2]
     date = sys.argv[2]
     # Create random time
     hour = random.randint(0, 23)
@@ -28,7 +29,7 @@ if (sys.argv[2]):
     second = random.randint(0, 59)
     random_time = datetime.time(hour, minute, second)
     timestamp = date + ' ' + str(random_time)
-else:
+except IndexError:
     now = datetime.datetime.now()
     timestamp = now.strftime('%Y-%m-%d %X')
     date = now.strftime('%Y-%m-%d')

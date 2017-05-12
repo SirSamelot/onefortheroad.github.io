@@ -1,0 +1,510 @@
+name,city,province
+"""A"" Frame Brewing Co.",Squamish,British Columbia
+20 Valley Brewery,St. Catherines,Ontario
+33 Acres Brewing Co.,Vancouver,British Columbia
+5 Paddles Brewing Co.,Whitby,Ontario
+9 Mile Legacy Brewing Company,Saskatoon,Saskatchewan
+Abe Erb Brewery & Restaurant,Waterloo,Ontario
+Agassiz Brewing,Winnipeg,Manitoba
+Agassiz Brewing,defunct,Manitoba
+Albion,Joliette,Quebec
+Alexander Keith's Brewery,Halifax,Nova Scotia
+All or Nothing Brewhouse,Oshawa,Ontario
+Alley Kat Brewing Company,Edmonton,Alberta
+Amber Brewery,Markham,Ontario
+Amber's Brewing Company,Edmonton,Alberta
+Amsterdam Brewhouse,Toronto,Ontario
+Amsterdam Brewing Co.,Toronto,Ontario
+Arch Brewing Co.,Newmarket,Ontario
+Archibald,Lac Beauport,Quebec
+Archibald,Sainte-Foy,Quebec
+Arrowhead Brewing Co.,Invermere,British Columbia
+Ashton Brewing Co.,Beckwith,Ontario
+Atlantic Brewery,Stephenville,Newfoundland & Labrador
+Auval,Val d'Espoir,Quebec
+Aux Fous Brassant,Rivière-du-Loup,Quebec
+Axe and Barrel Brewing Co.,Victoria,British Columbia
+BNA Brewing Co.,Kelowna,British Columbia
+Bad Apple Brewhouse,Somerset,Nova Scotia
+Bad Tattoo Brewing,Penticton,British Columbia
+Bamboo Beer Co.,Stoney Creek,Ontario
+Bancroft Brewing Co.,Bancroft,Ontario
+Banded Goose Brewing Co.,Kingsville,Ontario
+Banded Peak Brewing Company,Calgary,Alberta
+Banff Ave. Brewing Co.,Banff,Alberta
+Bar Centre Ale Artisan Brasseur,Drummondville,Quebec
+Barkerville Brewing Co.,Quesnel,British Columbia
+Barley Days Brewery,Picton,Ontario
+Barn Door Beverage Co.,Uxbridge,Ontario
+Barn Hammer Brewing,Winnipeg,Manitoba
+Barnone Brewery,Rose Valley,Prince Edward Island
+Barnstormer Brewing Co.,Barrie,Ontario
+Bavarian Brewing Company Limited,St. John's,Newfoundland & Labrador
+Bayside Brewing Co.,Erieau,Ontario
+Beach Fire Brewing,Campbell River,British Columbia
+Beau's All Natural Brewing Co.,Vankleek Hill,Ontario
+Beer Lab London,London,Ontario
+Belgh Brasse,Amos,Quebec
+Bell City Brewing Co.,Brantford,Ontario
+Bellwoods Brewery,Toronto,Ontario
+Bent Stick Brewing Co.,Edmonton,Alberta
+Bentley Brewers,Ottawa,Ontario
+Beyond the Pale Brewing Co.,Ottawa,Ontario
+Bicycle Craft Brewery,Ottawa,Ontario
+Bierbrier Brewing Inc.,Toronto,Ontario
+Big Axe Brewery,Nackawic,New Brunswick
+Big Ridge Brewing Co.,Surrey,British Columbia
+Big Rig Brewery & Kitchen,Ottawa,Ontario
+Big Rig Brewery & Taproom,Kanata,Ontario
+Big Rock Brewery,Calgary,Alberta
+Big Rock Urban Brewery,Vancouver,British Columbia
+Big Spruce Brewing,Nyanza,Nova Scotia
+Big Surf Brew Co.,Kelowna,British Columbia
+Bison Brewing Company,Stephenville,Newfoundland & Labrador
+Black Bridge Brewery,Swift Current,Saskatchewan
+Black Creek Historic Brewery,Toronto,Ontario
+Black Donnellys Brewing Co.,Mitchell,Ontario
+Black Kettle Brewing Co.,North Vancouver,British Columbia
+Black Loon Brewing,Delta,British Columbia
+Black Oak Brewing Co.,Etobicoke,Ontario
+Black Swan Brewing Co.,Stratford,Ontario
+Blindman Brewing,Lacombe,Alberta
+Block Three Brewing Co.,St. Jacobs,Ontario
+Blood Brothers Brewing,Toronto,Ontario
+Blue Elephant Craft Brew House,Simcoe,Ontario
+Bobcaygeon Brewing Co.,Bobcaygeon,Ontario
+Boiling Oar Brewing Company,Calgary,Alberta
+Bomb Brewing Co.,Hamilton,Ontario
+Bomber Brewing,Vancouver,British Columbia
+Bone Brewing Co.,Kelowna,British Columbia
+Bootleg Brew Company,Corner Brook,Newfoundland & Labrador
+Boquébière - microbrasserie de Sherbrooke,Sherbrooke,Quebec
+Boshkung Brewing Co.,Minden,Ontario
+Boundary Brewing Co.,Kelowna,British Columbia
+Bowen Island Brewing Co.,Vancouver,British Columbia
+Boxing Rock Brewing Company,Shelburne,Nova Scotia
+Bragg Creek Brewing Company,Bragg Creek,Alberta
+Brasserie Dieu du ciel!,Saint-Jérôme,Quebec
+Brasserie Dunham,Dunham,Quebec
+Brasserie McAuslan,Montréal,Quebec
+Brasserie Saint-Antoine-Abbée,Franklin,Quebec
+Brasserie du Vieux Montréal,Montréal,Quebec
+Brasserie Étienne Brûlé,Embrun,Ontario
+Brasseurs de l'Outaouais,Gatineau,Quebec
+Brasseurs du Monde,Saint-Hyacinthe,Quebec
+Brasseurs du Petit-Sault,Edmundston,New Brunswick
+Brasseurs et Frères,Dunham,Quebec
+Brasseurs illimités,Saint-Eustache,Quebec
+Brassneck Brewery,Vancouver,British Columbia
+Brauerei Fahr,Turner Valley,Alberta
+Breton Brewing Co.,Sydney,Nova Scotia
+Brew Windsor,Windsor,Ontario
+BrewHouse,Whistler,British Columbia
+Brewsters Brewing Company,Calgary,Alberta
+Brewsters Brewing Company,Edmonton,Alberta
+Brick Brewing Co.,Waterloo,Ontario
+Bridge Brewing Company,North Vancouver,British Columbia
+Brimstone Brewing Co.,Ridgeway,Ontario
+Broadhead Brewing Co.,Ottawa,Ontario
+Brock Street Brewing Co.,Whitby,Ontario
+Broken Stick Brewing Co.,Ottawa,Ontario
+Brothers Brewing Co.,Guelph,Ontario
+Brouemont,Bromont,Quebec
+Brux House,Hamilton,Ontario
+Burdock Brewing,Toronto,Ontario
+Bush Pilot Brewing Co.,Hastings County,Ontario
+Bytown Brewery,Ottawa,Ontario
+C'est What?,Toronto,Ontario
+Calabogie Brewing Co.,Calabogie,Ontario
+Callister Brewing Co.,Vancouver,British Columbia
+Cameron's Brewing Co.,Oakville,Ontario
+Cannery Brewing Co.,Penticton,British Columbia
+Canoe Brewery & Pub,Victoria,British Columbia
+Canuck Empire Brewing Co.,Aldergrove,British Columbia
+Caravel Craft Brewery,Calgary,Alberta
+Carling O'Keefe Brewery,St. John's,Newfoundland & Labrador
+Cartwright Springs Brewery,Pakenham,Ontario
+Cassel Brewery Co. Ltd,Casselman,Ontario
+Category 12 Brewing,Saanichton,British Columbia
+Cecils Brewhouse & Kitchen,North Bay,Ontario
+Central City Brewing Co.,Surrey,British Columbia
+Chaos and Solace Craft Brew Co.,Chilliwack,British Columbia
+Cheetah International Brewers Inc.,Toronto,Ontario
+Cheshire Valley Brewing,Toronto,Ontario
+Churchkey Brewing Co.,Camp,Ontario
+Clifford Brewing Co.,Hamilton,Ontario
+Clock Tower Brewpub,Ottawa,Ontario
+Coal Harbour Brewing,Vancouver,British Columbia
+Cold Garden Beverage Company,Calgary,Alberta
+Collective Arts Brewing,Hamilton,Ontario
+"Collingwood Brewery, The",Collingwood,Ontario
+Columbia Brewery,Creston,British Columbia
+Cool Beer Brewing Co. Inc.,Etobicoke,Ontario
+Corsaire,Lévis,Quebec
+Coulee Brewing Co.,Lethbridge,Alberta
+Country Road Beer Co.,Wellington,Ontario
+Covered Bridge Brewing Co.,Stittsville,Ontario
+Craft Heads Brewing Co.,Windsor,Ontario
+Crannog Ales,Sorrento,British Columbia
+Creemore Springs,Creemore,Ontario
+Dageraad Brewing,Burnaby,British Columbia
+Dead Frog Brewery,Aldergrove,British Columbia
+Deep Cove Brewers,North Vancouver,British Columbia
+Descendants Beer & Beverage Co.,Kitchener,Ontario
+Dieu du ciel!,Saint-Jérôme,Quebec
+District Brewing Company,Regina,Saskatchewan
+Doan's Craft Brewing Co.,Vancouver,British Columbia
+Dockside Brewing Co.,Vancouver,British Columbia
+Dogwood Brewing,Vancouver,British Columbia
+Dominion City Brewing Co.,Ottawa,Ontario
+Double Trouble Brewing Co.,Toronto,Ontario
+Driftwood Brewing Co.,Victoria,British Columbia
+Duggan's Brewing,Toronto,Ontario
+Durham Brewing Co.,Pickering,Ontario
+East Van Brewing,Vancouver,British Columbia
+Elora Brewing Co.,Elora,Ontario
+"Exchange Brewery, The",Niagara-on-the-Lake,Ontario
+Faculty Brewing Co.,Vancouver,British Columbia
+Farmery Estate Brewery,Muskoka,Manitoba
+Fat Cat Beer Co.,Nanaimo,British Columbia
+Fernie Brewing Co.,Fernie,British Columbia
+Fieldhouse Brewing Co.,Abbotsford,British Columbia
+Firehall Brewery,Oliver,British Columbia
+Flying Monkeys Craft Brewery,Barrie,Ontario
+Foamers' Folly Brewing Co.,Pitt Meadows,British Columbia
+Folly Brewpub,Toronto,Ontario
+Forbidden Brewing Co.,Courtney,British Columbia
+Forked River Brewing Co.,London,Ontario
+Fort Garry Brewing Company,Winnipeg,Manitoba
+Four Mile Brewing Co.,Victoria,British Columbia
+Four Winds Brewing Co.,Delta,British Columbia
+Frampton Brasse,Frampton,Quebec
+Freshwater Brewing Company,Carbonear,Newfoundland & Labrador
+Fuggles & Warlock Craftworks,Richmond,British Columbia
+Gainsbourg,Gatineau,Quebec
+Gananoque Brewing Co.,Ganonoque,Ontario
+Garden Brewers,Hamilton,Ontario
+Garrison Brewing Company,Halifax,Nova Scotia
+Georgian Lanes,Parry Sound,Ontario
+Gladstone Brewing Co.,Courtenay,British Columbia
+Goat Locker Brewing Co.,Calgary,Alberta
+Gongshow Beauty Beer,Ottawa,Ontario
+Good Robot,Halifax,Nova Scotia
+Goudale,Boisbriand,Quebec
+Grand River Brewing,Cambridge,Ontario
+Granite Brewery,Halifax,Nova Scotia
+Granite Brewery,Toronto,Ontario
+Granville Island Brewing,Vancouver,British Columbia
+Great Lakes Brewery,Etibicoke,Ontario
+Great Western Brewing Company,Saskatoon,Saskatchewan
+Green Leaf Brewing Co.,North Vancouver,British Columbia
+Griffin Gastropub,Bracebridge,Ontario
+Grimross Brewing,Fredericton,New Brunswick
+Gulf Islands Brewing,Salt Spring Island,British Columbia
+Half Hitch Brewing Company,Cochrane,Alberta
+Half Pints Brewing Company,Winnipeg,Manitoba
+Haliburton Highlands Brewing Co.,Haliburton,Ontario
+"Hamilton Brewery, The",Hamilton,Ontario
+Heady Brew Co.,Toronto,Ontario
+Hearthstone Brewery,North Vancouver,British Columbia
+Hell Bay Brewing Company,Liverpool,Nova Scotia
+Hell's Basement Brewery,Medicine Hat,Alberta
+Hell's Gate Brewing Co.,Vancouver,British Columbia
+Henderson Brewing Co.,Toronto,Ontario
+High Mountain Brewing Co.,Whistler,British Columbia
+High Park Brewery,Toronto,Ontario
+High Road Brewing Co.,Niagara-on-the-Lake,Ontario
+Highlander Brew Co.,South River,Ontario
+Hockley Valley Brewing Co.,Orangeville,Ontario
+Hog's Head Brewing Company,St. Albert,Alberta
+HogsBack Brewing Co.,Ottawa,Ontario
+Hogtown Brewers,Toronto,Ontario
+Hometown Brew,Toronto,Ontario
+Hop City Brewing Co.,Brampton,Ontario
+HopEra Microbrasserie et Pizzeria,Jonquière,Quebec
+Hopfenstark,L'Assomption,Quebec
+House Ales,Toronto,Ontario
+Howe Sound Brewing Co.,Squamish,British Columbia
+Hoyne Brewing Co.,Victoria,British Columbia
+Indie Alehouse Brewing Co.,Toronto,Ontario
+Innocente Brewing Co.,Waterloo,Ontario
+Jasper Brewing Company,Jasper,Alberta
+Jesuit Brother Ambroise,first brewer in Canada in New France,Quebec
+Junction Craft Brewing,Toronto,Ontario
+Kame & Kettle Beer Works,Fonthill,Ontario
+Kavanaugh and Company,St. John's,Newfoundland & Labrador
+Kensington Brewing Co.,Toronto,Ontario
+Kettle River Brewing Co.,Kelowna,British Columbia
+Kichesippi Beer Co.,Ottawa,Ontario
+Kilannan Brewing Co.,Owen Sound,Ontario
+Kingston Brewing Co.,Kingston,Ontario
+L'Espace Public,Montréal,Quebec
+L'alchimiste,Joliette,Quebec
+L'inox,Québec city,Quebec
+La Barberie,Québec city,Quebec
+La Brasserie Générale,Québec city,Quebec
+La Brasserie du Roi,The King's Brewery,Quebec
+La Captive,Amqui,Quebec
+La Chouape,St-Félicien,Quebec
+La Compagnie de Bière Brisset,Montréal,Quebec
+La Diable,Mont-Tremblant,Quebec
+La Fabrique,Matane,Quebec
+La Gueule de Bois,Jonquière,Quebec
+La Korrigane,Québec city,Quebec
+La Mare au Diable,Sherbrooke,Quebec
+"La Micro de Bromont, anciennement Le Chaudron",Bromont,Quebec
+La Société,Saint-Georges,Quebec
+La Souche,Québec city,Quebec
+La Tour à Bières,Chicoutimi,Quebec
+La Voie Maltée,Jonquière,Quebec
+La Voie Maltée,Chicoutimi,Quebec
+La Voie Maltée,Québec,Quebec
+Labatt Brewery,St. John's,Newfoundland & Labrador
+Labatt Brewing Company,Stephenville,Newfoundland & Labrador
+Lake Wilcox Brewing Co.,Vaughan,Ontario
+Lake of Bays Brewing Co.,Baysville,Ontario
+Lake of the Woods Brewing Co.,Kenora,Ontario
+Lake on the Mountain Brewing Co.,Prince Edward County,Ontario
+Landsdowne Brewery,Toronto,Ontario
+Last Best Brewing & Distilling,Calgary,Alberta
+Le Baril Roulant,Val-David,Quebec
+"Le Bien, le Malt",Rimouski,Quebec
+Le Grimoire,Granby,Quebec
+Le Naufrageur,Carleton-sur-Mer,Quebec
+Le Saint-Graal,Sainte-Thèrèse,Quebec
+Le Trèfle Noir,Rouyn-Noranda,Quebec
+Left Field Brewery,Toronto,Ontario
+Les 3 Brasseurs,Quebec City,Quebec
+Les 3 Brasseurs,Laval,Quebec
+Les 3 Brasseurs,Brossard,Quebec
+Les Bières de la Nouvelle-France,Saint-Alexis-des-Monts,Quebec
+Les Brasseurs RJ,Montréal,Quebec
+Les Brasseurs de la Mauricie,Shawinigan,Quebec
+Les Brasseurs du Hameau,Saint-Joseph-de-Ham-Sud,Quebec
+Les Brasseurs du Nord,Blainville,Quebec
+Les Brasseurs du Temps,Gatineau,Quebec
+Les Frères Houblons,Trois-Rivières,Quebec
+Les Trois Mousquetaires,Brossard,Quebec
+Liberty Village Brewing Co.,Toronto,Ontario
+Lighthouse Brewing Co.,Victoria,British Columbia
+Lindberg Brewing Company Limited,St. John's,Newfoundland & Labrador
+Lion Brewery Restaurant,Waterloo,Ontario
+Lion d'Or,Lennoxville,Quebec
+Little Brown Jug Brewing Company,Winnipeg,Manitoba
+London Brewing Co-operative,London,Ontario
+Longslice Brewing Co.,Toronto,Ontario
+Lonsbery Farms Brewing Co.,Colchester,Ontario
+Lost Craft Beer,Toronto,Ontario
+Louis Cifer Brew Works,Toronto,Ontario
+Lowertown Brewery,Ottawa,Ontario
+Luppolo Brewing Co.,Vancouver,British Columbia
+MacKinnon Brothers Brewing,Bath,Ontario
+MacLean's Ales Inc.,Hanover,Ontario
+Mad & Noisy Brewing,Creemore,Ontario
+Magnotta Brewery,Vaughan,Ontario
+Main Street Brewing Co.,Vancouver,British Columbia
+Manantler Brewing Co.,Bowmanville,Ontario
+Manitoulin Brewing Co.,Little Current,Ontario
+Maple Meadows Brewing Co.,Maple Ridge,British Columbia
+Marten Brewing Co.,Vernon,British Columbia
+Mascot Brewery,Toronto,Ontario
+Merchant Alehouse,St. Catherines,Ontario
+Microbrasserie Charlevoix,Baie-Saint-Paul,Quebec
+Microbrasserie Le Prospecteur,Val d'Or,Quebec
+Microbrasserie Maltéus,Salaberry-de-Valleyfield,Quebec
+Microbrasserie St-Pancrace,Baie-Comeau,Quebec
+"Microbrasserie d'Orléans, Pub Le Mitan",Île d'Orléans,Quebec
+Microbrasserie de Bellechasse,Pub de la Contrée,Quebec
+Microbrasserie de Bellechasse,Buckland,Quebec
+Microbrasserie de Bellechasse,Bellechasse,Quebec
+Microbrasserie de Coaticook,Coaticook,Quebec
+Microbrasserie des Beaux-Prés,Sainte-Anne-de-Beaupré,Quebec
+Microbrasserie du Lac-Saint-Jean,Saint-Gédéon,Quebec
+Microbrasserie du Lièvre,Mont-Laurier,Quebec
+Microbrasserie la Memphrée,Magog,Quebec
+Microbrasserie la Moustache,Québec city,Quebec
+Microbrasserie le Castor,Rigaud,Quebec
+Microbrasserie le Coureur des Bois,Dolbeau-Mistassini,Quebec
+Midland Beer Works,Midland,Ontario
+Mill Creek Brewery,Kelowna,British Columbia
+Mill St. Brewery,Production,Ontario
+Mill St. Brewery,Scarborough,Ontario
+Mill St. Brewpub Ottawa,Ottawa,Ontario
+Mill St. Brewpub Toronto,Toronto,Ontario
+Mill Street Brewpub,St. John's,Newfoundland & Labrador
+Minhas Micro Brewery,Calgary,Alberta
+Mission Springs Brewing Co.,Mission,British Columbia
+Molson Brewery,St. John's,Newfoundland & Labrador
+Moody Ales,Port Moody,British Columbia
+Moon Under Water Brewery,Victoria,British Columbia
+Moosehead Brewery,Saint John,New Brunswick
+Moth Lane Brewing,Ellerslie,Prince Edward Island
+Motor Craft Ales,Windsor,Ontario
+Mozart Brewing Co.,Kimberley,British Columbia
+Mt. Begbie Brewing Co.,Revelstoke,British Columbia
+Muddy York Brewing Co.,Toronto,Ontario
+Multi-Brasses,Tingwick,Quebec
+Muskoka Brewery,Bracebridge,Ontario
+Nelson Brewing Co.,Nelson,British Columbia
+Neustadt Springs Brewery,Neustadt,Ontario
+New Limburg Brewing Co.,Nixon,Ontario
+New Ontario Brewing Co.,North Bay,Ontario
+Newfoundland Brewery Limited,St. John's,Newfoundland & Labrador
+Niagara Brewing Co.,Niagara Falls,Ontario
+Niagara College Teaching Brewery,Niagara-on-the-Lake,Ontario
+Niagara Oast House Brewers,Niagara-on-the-Lake,Ontario
+Nickel Brook Brewing Co.,Burlington,Ontario
+Nita Brewing Co.,Ottawa,Ontario
+Noble Pig Brewing Co.,Kamloops,British Columbia
+Noire & Blanche,St-Eustache,Quebec
+Nokomis Craft Ales,Nokomis,Saskatchewan
+Norsemen Brewing Co.,Camrose,Alberta
+North Brewing Company,Halifax,Nova Scotia
+North Winds Brew House & Eatery,Collingwood,Ontario
+Northumberland Hills Brewery,Cobourg,Ontario
+Northwest Territories Brewing Co.,Yellowknife,Northwest Territories
+O-Fresh Brewery,Simcoe,Ontario
+Oland Brewery,Halifax,Nova Scotia
+Old Credit Brewing Co. Ltd.,Mississauga,Ontario
+Old Flame Brewing Co.,Port Perry,Ontario
+Old Tomorrow Ltd.,Toronto,Ontario
+"Olde Stone Brewing Co., The",Peterborough,Ontario
+Olds College Brewery,Olds,Alberta
+Ontario Beer Co.,Toronto,Ontario
+Orange Snail Brewing Co.,Milton,Ontario
+Outcast Brewing,Calgary,Alberta
+Outlaw Brew Co.,Southampton,Ontario
+Outspoken Brewing Ltd.,Sault Sainte Marie,Ontario
+PEG Beer Co.,Winnipeg,Manitoba
+PEI Brewing Company,Charlottetown,Prince Edward Island
+Pacific Western Brewing Co.,Prince George,British Columbia
+Paddock Wood Brewing Company,Saskatoon,Saskatchewan
+Parallel 49 Brewing,Vancouver,British Columbia
+Pepperwood Bistro & Brew House,Burlington,Ontario
+Persephone Brewing, Gibsons ,British Columbia
+Perth Brewing Co.,Perth,Ontario
+Phillips Brewing Company,Victoria,British Columbia
+Picaroons Traditional Ales,Fredericton,New Brunswick
+Pit Caribou,Anse-à-Beaufils,Quebec
+Pitschfork Brewing,Toronto,Ontario
+Polar Park Brewing Company,Edmonton,Alberta
+Port Rexton Brewing Company,Port Rexton,Newfoundland & Labrador
+Postmark Brewing,Vancouver,British Columbia
+Powell Street Craft Brewery,Vancouver,British Columbia
+Practically Irish Brewing Ltd.,Pickering,Ontario
+Prairie Sun Brewery,Saskatoon,Saskatchewan
+Propeller Brewing Company,Halifax,Nova Scotia
+Publican House Brewery,Peterborough,Ontario
+Pump House Brewery,Moncton,New Brunswick
+Quidi Vidi Brewing Company,St. John's,Newfoundland & Labrador
+R & B Brewing Co.,Vancouver,British Columbia
+Radical Road Brewing Co.,Toronto,Ontario
+Railway City Brewing,St. Thomas,Ontario
+Rainhard Brewing Co.,Toronto,Ontario
+Ramblin' Road Brewery Farm,La Salette,Ontario
+Ravens Brewing Company,Abbotsford,British Columbia
+Rebellion Brewing,Regina,Saskatchewan
+Redline Brewhouse,Barrie,Ontario
+Refines Fool Brewing,Sarnia,Ontario
+Ribstone Creek Brewery,Edgerton,Alberta
+Royal City Brewing Co.,Guelph,Ontario
+Rurban Brewing,Cornwall,Ontario
+Russell Brewing Company,Surrey,British Columbia
+Sapporo Beer - Sleeman/Okanagan Springs,various,British Columbia
+Sawdust City Brewing Co.,Gravenhurst,Ontario
+Shacklands Brewery,Toronto,Ontario
+Shillow Beer Co.,Toronto,Ontario
+Shrugging Doctor Brewing Company,Winnipeg,Manitoba
+Siboire,Sherbrooke,Quebec
+Side Launch Brewing Co.,Collingwood,Ontario
+Silversmith Brewing,Niagara-on-the-Lake,Ontario
+Situation Brewing,Edmonton,Alberta
+Six Corners Brew Works,Okotoks,Alberta
+Skeena Brewing Co.,Perth,Ontario
+Sleeping Giant Brewery,Thunder Bay,Ontario
+Smithworks Brewing Co.,Peterborough,Ontario
+Snowman Brewing Co.,Toronto,Ontario
+Sooke Oceanside Brewery,Sooke,British Columbia
+Spearhead Brewing Co.,Toronto,Ontario
+Spinnakers Gastro Brewpub,Victoria,British Columbia
+Split Rail Brewing Co.,Gore Bay,Ontario
+Square Timber Brewing Co.,Pembroke,Ontario
+St-Arnould,Mont-Tremblant,Quebec
+St. Mary Axe,Toronto,Ontario
+Stack Brewing Co.,Sudbury,Ontario
+Stalwart Brewing Co.,Ottawa,Ontario
+Steam Whistle Brewery,Toronto,Ontario
+Steamworks Brewing Company,Vancouver,British Columbia
+Steel & Oak Brewing Co.,New Westminster,British Columbia
+Stone City Ales,Kingston,Ontario
+Stone Hammer Brewing,Guelph,Ontario
+Storm Brewing,Vancouver,British Columbia
+Storm Brewing,Mount Pearl,Newfoundland & Labrador
+Stouffville Brewing Co.,Stouffville,Ontario
+Strange Fellows Brewing Company,Vancouver,British Columbia
+Stratford Brewing Co.,Stratford,Ontario
+Strathroy Brewing Co.,Strathroy,Ontario
+Swans Brewery,Victoria,British Columbia
+Sweetgrass Brewing Co.,Toronto,Ontario
+Syndicate Restaurant & Brewery,Niagara Falls,Ontario
+Taps Brewhouse & Grill,Niagara Falls,Ontario
+Tatamagouche Brewing Company,Tatamagouche,Nova Scotia
+The Bennett Brewing Company,St. John's,Newfoundland & Labrador
+The Dandy Brewing Company,Calgary,Alberta
+The Gahan Brewery,Charlottetown,Prince Edward Island
+The Grizzly Paw Brewing Company,Canmore,Alberta
+Theoretically Brewing,Lethbridge,Alberta
+Thornbury Beverage Co.,Thornbury,Ontario
+Tin Whistle Brewing Company,Penticton,British Columbia
+Tobermory Brewing & Grilling Co.,Tobermory,Ontario
+Toboggan Brewing Co.,London,Ontario
+Tofino Brewing Co.,Tofino,British Columbia
+Tool Shed Brewing Company,Calgary,Alberta
+Tooth and Nail Brewing Co.,Ottawa,Ontario
+Torchlight Brewing Company,Nelson,British Columbia
+Torque Brewing,Winnipeg,Manitoba
+Townsite Brewing,Powell River,British Columbia
+Tracks Brewpub,Brampton,Ontario
+Trafalgar Brewing Co.,Oakville,Ontario
+Tree Brewing Company,Kelowna,British Columbia
+Triple Bogey Brewing Co.,Toronto,Ontario
+Trolley Five Restaurant and Brewery,Calgary,Alberta
+Troubled Monk Brewery,Red Deer,Alberta
+Tuque de Broue,Ottawa,Ontario
+Turning Point Brewery,Delta,British Columbia
+Turtle Island Brewing Co.,Ottawa,Ontario
+Twin Sails Brewing,Port Moody,British Columbia
+Uncle Leo's Brewery,Lyons Brook,Nova Scotia
+Unfiltered,Halifax,Nova Scotia
+Unibroue,Sapporo,Quebec
+Unibroue,Chambly,Quebec
+Union Jack Brewing Co.,Sault Sainte Marie,Ontario
+Upstreet Craft Brewing,Charlottetown,Prince Edward Island
+Vancouver Island Brewery,Victoria,British Columbia
+Village Brewery,Calgary,Alberta
+Walkerville Brewery,Windsor,Ontario
+Waller Street Brewing,Ottawa,Ontario
+Waterloo Brewing Co.,Waterloo,Ontario
+"Weather Brewery, The",Ottawa,Ontario
+Wellington Brewery,Guelph,Ontario
+Western Newfoundland Brewing Company,Pasadena,Newfoundland & Labrador
+Whiprsnapr Brewing Co.,Ottawa,Ontario
+Whistler Brewing Company,Whistler,British Columbia
+White Rock Beach Beer Company,White Rock,British Columbia
+White Rock Brewing,Surrey,British Columbia
+White Sails Brewing,Nanaimo,British Columbia
+Whitewater Brewing Co.,Forester Falls,Ontario
+Wild Card Brewing Co.,Trenton,Ontario
+Wild Rose Brewery,Calgary,Alberta
+William Street Beer Co.,Cobourg,Ontario
+Winterlong Brewing Co.,Whitehorse,Yukon
+Wolf Brewing Company,Nanaimo,British Columbia
+Wood Buffalo Brewing Co.,Fort McMurray,Alberta
+Woodhouse Brewing Co.,Toronto,Ontario
+Yaletown Brewing Co.,Vancouver,British Columbia
+Yellow Dog Brewing Co.,Port Moody,British Columbia
+Yellowbelly Brewery,St. John's,Newfoundland & Labrador
+Yellowhead Brewing Company,Edmonton,Alberta
+Yukon Brewing Co.,Whitehorse,Yukon
+À l'abri de la Tempête,L'Étang-du-Nord,Quebec
+À la Fût,Saint-Tite,Quebec
