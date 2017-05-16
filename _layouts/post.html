@@ -40,10 +40,10 @@ layout: default
                 {% if page.next.url or page.previous.url %}
                 <div class="pager">
                     {% if page.previous.url %}
-                    <a class="previous float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    <a class="previous float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | replace: '&nbsp', ' '}}">&larr; Previous Post</a>
                     {% endif %}
                     {% if page.next.url %}
-                    <a class="next float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    <a class="next float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | replace: '&nbsp', ' '}}">Next Post &rarr;</a>
                     {% endif %}
                 </div>
 
