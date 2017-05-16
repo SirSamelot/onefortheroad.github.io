@@ -230,12 +230,12 @@ blockquote + * { margin-top: 1em; }
   .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
   }
-  .navbar-custom .nav li a {
+  .navbar-custom .nav-item a {
     color: white;
     padding: 20px;
   }
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
+  .navbar-custom .nav-item a:hover,
+  .navbar-custom .nav-item a:focus {
     color: rgba(255, 255, 255, 0.8);
   }
 }
@@ -256,7 +256,7 @@ blockquote + * { margin-top: 1em; }
   .navbar-custom.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
-    top: -61px;
+    top: -87px;
     background-color: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid #f2f2f2;
     -webkit-transition: -webkit-transform 0.3s;
@@ -270,11 +270,11 @@ blockquote + * { margin-top: 1em; }
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
-  .navbar-custom.is-fixed .nav li a {
+  .navbar-custom.is-fixed .nav-item a {
     color: #404040;
   }
-  .navbar-custom.is-fixed .nav li a:hover,
-  .navbar-custom.is-fixed .nav li a:focus {
+  .navbar-custom.is-fixed .nav-item a:hover,
+  .navbar-custom.is-fixed .nav-item a:focus {
     color: #0085a1;
   }
   .navbar-custom.is-visible {
@@ -418,6 +418,8 @@ form .row:first-child .floating-label-form-group { border-top: 1px solid #eeeeee
   border: 1px solid #0085a1;
   color: white;
 }
+
+.pager { height: 2.3em; }
 .pager a {
   text-transform: uppercase;
   padding: 0.4em 1.5em;
