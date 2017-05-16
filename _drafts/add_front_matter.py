@@ -47,7 +47,7 @@ subtitle:   "INSERT SUBTITLE"
 date:   {timestamp}
 author:     "Sam Wong"
 header-img: "img/{img_filename}"
-categories: python tutorial
+categories: tutorial pandas
 comments: true
 ---""".format(title=title, timestamp=timestamp, img_filename=img_fname)
 

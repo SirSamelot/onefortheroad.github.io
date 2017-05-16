@@ -5,7 +5,7 @@ subtitle:   "a simple example with text data"
 date:   2017-05-12 14:41:03
 author:     "Sam Wong"
 header-img: "img/2017-05-12-tidying-data.jpg"
-categories: python pandas tutorial
+categories: tutorial pandas
 comments: true
 ---
 # Introduction

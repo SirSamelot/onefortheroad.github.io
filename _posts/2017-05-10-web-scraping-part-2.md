@@ -5,7 +5,7 @@ subtitle:   "Adventures with Wikipedia"
 date:   2017-05-10 20:18:03
 author:     "Sam Wong"
 header-img: "img/2017-05-10-web-scraping-part-2.jpg"
-categories: python tutorial
+categories: tutorial python
 comments: true
 ---
 # Introduction

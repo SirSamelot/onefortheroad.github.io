@@ -5,7 +5,7 @@ subtitle:   "Starring Beautiful Soup and pandas"
 date:   2017-04-29 21:42:30
 author:     "Sam Wong"
 header-img: "img/2017-04-29-web-scraping-part-1.jpg"
-categories: python tutorial
+categories: tutorial python
 comments: true
 ---
 # Introduction

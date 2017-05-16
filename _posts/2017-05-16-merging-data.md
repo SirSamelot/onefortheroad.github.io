@@ -5,7 +5,7 @@ subtitle:   "when two become one"
 date:   2017-05-16 12:02:06
 author:     "Sam Wong"
 header-img: "img/2017-05-16-merging-data.jpg"
-categories: pandas tutorial
+categories: tutorial pandas
 comments: true
 ---
 # Introduction

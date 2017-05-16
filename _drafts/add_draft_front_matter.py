@@ -30,7 +30,7 @@ subtitle:   "{markdown_fname}"
 date:   {timestamp}
 author:     "Sam Wong"
 header-img: "img/{img_filename}"
-categories: python tutorial
+categories: tutorial
 ---""".format(title=title, markdown_fname=markdown_fname, timestamp=timestamp, img_filename=img_fname)
 
 # Read contents of current markdown file
