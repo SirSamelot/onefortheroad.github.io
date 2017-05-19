@@ -7,7 +7,7 @@ import os
 import sys
 import datetime
 
-print('[INFO] running add_draft_front_matter.py')
+print('[SCRIPT] running add_draft_front_matter.py')
 
 # Input and output filenames
 ftitle = sys.argv[1].split('.')[0]
