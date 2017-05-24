@@ -34,10 +34,10 @@ categories: tutorial
 ---""".format(title=title, markdown_fname=markdown_fname, timestamp=timestamp, img_filename=img_fname)
 
 # Read contents of current markdown file
-with open(markdown_fname, 'r') as f:
+with open(markdown_fname, 'r', encoding='latin1') as f:
     content = f.read()
 
 # Write updated markdown to _posts
-with open(output_fname, 'w') as f:
+with open(output_fname, 'w', encoding='latin1') as f:
     f.write(front_matter + content)
     print('[INFO] Output:\t{}'.format(output_fname))

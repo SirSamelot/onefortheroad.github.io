@@ -294,7 +294,7 @@ sns.countplot(y='province', data=df, palette='bright', order=df.province.value_c
 
 I'll let the graph do the talking.
 
-Another equally contentious topic: **who is the best brewery in Canada**?
+Another equally contentious topic: **who brews the best beer in Canada**?
 
 
 ```python

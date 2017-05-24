@@ -51,7 +51,7 @@ def fix_png_markdown(filename):
     - Prefix all ![png](...) in markdown with the jekyll path to folder
     - Add Bootstrap4 classes for responsive and centered images
     """
-    with open(filename, 'r+') as f:
+    with open(filename, 'r+', encoding='latin1') as f:
         lines = f.readlines()
         f.seek(0)
         f.truncate()
