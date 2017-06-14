@@ -12,9 +12,9 @@ comments: true
 
 *Note that the viz is meant to be viewed at desktop size, not on a phone or tablet.*
 
-[![png](/assets/img/posts/top-100-beers-tableau-viz_files/top-100-beers-tableau-viz-screenshot.png){:class="img-fluid mx-auto d-block"}](https://public.tableau.com/views/Top100BeersofCanadaDRAFT/Dashboard?:embed=y&:display_count=yes){:target="_blank"}
+[![png](/assets/img/posts/top-100-beers-tableau-viz_files/top-100-beers-tableau-viz-screenshot.png){:class="img-fluid mx-auto d-block"}](https://public.tableau.com/profile/sam3557#!/vizhome/Top100BeersofCanadaDRAFT/Dashboard){:target="_blank"}
 
-[(link to Viz)](https://public.tableau.com/views/Top100BeersofCanadaDRAFT/Dashboard?:embed=y&:display_count=yes){:target="_blank"}
+[(link to Viz)](https://public.tableau.com/profile/sam3557#!/vizhome/Top100BeersofCanadaDRAFT/Dashboard){:target="_blank"}
 
 > Have a question about this topic, or a suggestion for a future topic?  Please, leave a comment below!
 {:.blockquote}
