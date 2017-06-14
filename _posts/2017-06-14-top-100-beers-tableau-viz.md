@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Visualization with Tableau"
 subtitle:   "a short interactive demo"
-date:   2017-06-14 11:42:37
+date:   2017-06-14 22:42:37
 author:     "Sam Wong"
 header-img: "img/2017-06-14-top-100-beers-tableau-viz.jpg"
 categories: tableau
