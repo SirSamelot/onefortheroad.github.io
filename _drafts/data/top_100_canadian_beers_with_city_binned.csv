@@ -1,0 +1,101 @@
+rank,name,brewery,style,abv,score,ratings,city,province,family
+1,Péché Mortel,Brasserie Dieu du Ciel!,American Double / Imperial Stout,9.5,4.39,5087,Saint-Jérôme,Quebec,porter/stout
+2,Péché Mortel En Fût De Bourbon Américain,Brasserie Dieu du Ciel!,American Double / Imperial Stout,9.5,4.45,488,Saint-Jérôme,Quebec,porter/stout
+3,La Fin Du Monde,Unibroue,Tripel,9.0,4.31,10021,Chambly,Quebec,tripel
+4,Unibroue 17 Grande Réserve,Unibroue,Belgian Strong Dark Ale,10.0,4.24,1140,Chambly,Quebec,belgian dark ales
+5,Fat Tug IPA,Driftwood Brewery,American IPA,7.0,4.25,601,Victoria,British Columbia,IPA
+6,Red Racer IPA (India Pale Ale),Central City Brewers + Distillers,American IPA,6.5,4.23,1085,Surrey,British Columbia,IPA
+7,Nectarous,Four Winds Brewing Co.,American Wild Ale,5.5,4.48,92,Delta,British Columbia,other
+8,Trois Pistoles,Unibroue,Belgian Strong Dark Ale,9.0,4.2,4938,Chambly,Quebec,belgian dark ales
+9,Grande Cuvée Porter Baltique,Les Trois Mousquetaires,Baltic Porter,10.0,4.25,451,Brossard,Quebec,porter/stout
+10,Solstice D'été Aux Framboises,Brasserie Dieu du Ciel!,Berliner Weissbier,5.9,4.26,350,Saint-Jérôme,Quebec,other
+11,Moralité,Brasserie Dieu du Ciel!,American IPA,6.9,4.26,328,Saint-Jérôme,Quebec,IPA
+12,Aphrodisiaque,Brasserie Dieu du Ciel!,American Stout,6.5,4.19,1651,Saint-Jérôme,Quebec,porter/stout
+13,Maudite,Unibroue,Belgian Strong Dark Ale,8.0,4.17,4573,Chambly,Quebec,belgian dark ales
+14,Dominus Vobiscum Lupulus,Microbrasserie Charlevoix,Belgian IPA,10.0,4.24,274,Baie-Saint-Paul,Quebec,IPA
+15,La Terrible,Unibroue,Belgian Strong Dark Ale,10.5,4.16,2216,Chambly,Quebec,belgian dark ales
+16,Sartori Harvest IPA,Driftwood Brewery,American IPA,7.0,4.36,107,Victoria,British Columbia,IPA
+17,Bring Out Your Dead,Bellwoods Brewery,Russian Imperial Stout,12.2,4.34,117,Toronto,Ontario,porter/stout
+18,St-Ambroise Stout Impériale Russe,McAuslan Brewing,Russian Imperial Stout,9.1,4.21,307,Montréal,Quebec,porter/stout
+19,Great Lakes Thrust! An IPA,Great Lakes Brewery,American IPA,6.5,4.32,115,Etibicoke,Ontario,IPA
+20,Don De Dieu,Unibroue,Belgian Strong Pale Ale,9.0,4.13,2868,Chambly,Quebec,other
+21,Ransack the Universe - Hemisphere IPA,Collective Arts Brewing,American IPA,6.8,4.19,229,Hamilton,Ontario,IPA
+22,Yakima IPA,Microbrasserie Le Castor,American IPA,6.5,4.19,192,Rigaud,Quebec,IPA
+23,Great Lakes Karma Citra IPA,Great Lakes Brewery,American IPA,6.6,4.26,115,Etibicoke,Ontario,IPA
+24,Singularity,Driftwood Brewery,Russian Imperial Stout,12.2,4.2,162,Victoria,British Columbia,porter/stout
+25,St-Ambroise Oatmeal Stout,McAuslan Brewing,Oatmeal Stout,5.0,4.09,1237,Montréal,Quebec,porter/stout
+26,Doppelbock Grande Cuvée Printemps,Les Trois Mousquetaires,Doppelbock,8.6,4.16,206,Brossard,Quebec,other
+27,Red Racer Imperial IPA,Central City Brewers + Distillers,American Double / Imperial IPA,9.0,4.17,184,Surrey,British Columbia,IPA
+28,La Vache Folle - Milk Stout,Microbrasserie Charlevoix,American Double / Imperial Stout,9.0,4.14,255,Baie-Saint-Paul,Quebec,porter/stout
+29,Grande Noirceur,Brasserie Dieu du Ciel!,Russian Imperial Stout,9.0,4.11,397,Saint-Jérôme,Quebec,porter/stout
+30,Black Oak Ten Bitter Years,Black Oak Brewing Co.,American Double / Imperial IPA,8.0,4.16,184,Etobicoke,Ontario,IPA
+31,Herbe à Détourne,Brasserie Dieu du Ciel!,Tripel,10.2,4.12,257,Saint-Jérôme,Quebec,tripel
+32,Naughty Hildegard ESB,Driftwood Brewery,Extra Special / Strong Bitter (ESB),6.5,4.2,119,Victoria,British Columbia,other
+33,Old Cellar Dweller,Driftwood Brewery,American Barleywine,11.6,4.18,135,Victoria,British Columbia,barleywine
+34,Hellwoods,Bellwoods Brewery,Russian Imperial Stout,10.0,4.21,107,Toronto,Ontario,porter/stout
+35,Skeleton Key,Bellwoods Brewery,American Double / Imperial Stout,12.0,4.29,72,Toronto,Ontario,porter/stout
+36,Solstice D'hiver Réserve Spéciale En Fût De Bourbon,Brasserie Dieu du Ciel!,American Barleywine,10.8,4.2,110,Saint-Jérôme,Quebec,barleywine
+37,La Buteuse Brassin Spécial (Barrel Aged),Le Trou Du Diable,Tripel,10.0,4.18,124,Shawinigan,Quebec,tripel
+38,Flying Monkeys The Chocolate Manifesto,Flying Monkeys Craft Brewery,Milk / Sweet Stout,10.0,4.08,389,Barrie,Ontario,porter/stout
+39,La Résolution,Unibroue,Belgian Strong Dark Ale,10.0,4.09,270,Chambly,Quebec,belgian dark ales
+40,Great Lakes Lake Effect,Great Lakes Brewery,American IPA,7.0,4.17,121,Etibicoke,Ontario,IPA
+41,Dulcis Succubus,Le Trou Du Diable,Saison / Farmhouse Ale,7.0,4.12,181,Shawinigan,Quebec,saison
+42,Raised By Wolves IPA,Driftwood Brewery,American IPA,7.0,4.31,58,Victoria,British Columbia,IPA
+43,Grande Cuvée Porter Baltique - Fûts De Bourbon Et Brandy,Les Trois Mousquetaires,Baltic Porter,10.0,4.27,67,Brossard,Quebec,porter/stout
+44,Juxtapose Wild IPA,Four Winds Brewing Co.,American IPA,6.5,4.17,108,Delta,British Columbia,IPA
+45,Dominus Vobiscum Blanche,Microbrasserie Charlevoix,Witbier,5.0,4.12,157,Baie-Saint-Paul,Quebec,other
+46,Witchshark,Bellwoods Brewery,American Double / Imperial IPA,9.0,4.11,167,Toronto,Ontario,IPA
+47,Dominus Vobiscum Triple,Microbrasserie Charlevoix,Tripel,9.0,4.1,183,Baie-Saint-Paul,Quebec,tripel
+48,3 Minutes To Midnight,Bellwoods Brewery,Russian Imperial Stout,10.0,4.23,74,Toronto,Ontario,porter/stout
+49,RPA (Rye Pale Ale),Cameron's Brewing Co.,Rye Beer,6.6,4.12,141,Oakville,Ontario,other
+50,Le Temps Noir,Half Pints Brewing Company,Russian Imperial Stout,9.6,4.32,51,Winnipeg,Manitoba,porter/stout
+51,Imperial IPA,Garrison Brewing Company,American Double / Imperial IPA,8.0,4.07,225,Halifax,Nova Scotia,IPA
+52,Great Lakes Octopus Wants To Fight IPA,Great Lakes Brewery,American IPA,6.2,4.15,102,Etibicoke,Ontario,IPA
+53,Thor's Hammer Barley Wine,Central City Brewers + Distillers,English Barleywine,11.5,4.11,136,Surrey,British Columbia,barleywine
+54,Flying Monkeys Acadian Groove Canadian Maple Porter,Flying Monkeys Craft Brewery,American Porter,10.0,4.14,106,Barrie,Ontario,porter/stout
+55,Jutsu,Bellwoods Brewery,American Pale Ale (APA),5.6,4.19,78,Toronto,Ontario,other
+56,Humulus Ludicrous,Half Pints Brewing Company,American Double / Imperial IPA,8.0,4.13,102,Winnipeg,Manitoba,IPA
+57,Dominus Vobiscum Hibernus,Microbrasserie Charlevoix,Belgian Strong Dark Ale,10.0,4.1,125,Baie-Saint-Paul,Quebec,belgian dark ales
+58,Roman Candle,Bellwoods Brewery,American IPA,6.8,4.1,122,Toronto,Ontario,IPA
+59,Burly Wine,Half Pints Brewing Company,English Barleywine,10.5,4.17,76,Winnipeg,Manitoba,barleywine
+60,Pothole Filler Imperial Stout,Howe Sound Inn & Brewing Company,Russian Imperial Stout,9.0,4.05,189,Squamish,British Columbia,porter/stout
+61,Lambda,Bellwoods Brewery,Quadrupel (Quad),11.0,4.21,63,Toronto,Ontario,belgian dark ales
+62,Bird Of Prey,Driftwood Brewery,Flanders Red Ale,7.5,4.26,52,Victoria,British Columbia,other
+63,Dernière Volonté,Brasserie Dieu du Ciel!,Belgian IPA,7.0,3.99,609,Saint-Jérôme,Quebec,IPA
+64,Eau Benite,Unibroue,Tripel,7.7,3.99,470,Chambly,Quebec,tripel
+65,Chaman,Brasserie Dieu du Ciel!,American Double / Imperial IPA,9.0,4.04,179,Saint-Jérôme,Quebec,IPA
+66,Muskoka Twice As Mad Tom IPA,Muskoka Brewery,American Double / Imperial IPA,8.4,4.01,279,Bracebridge,Ontario,IPA
+67,Saison Du Tracteur,Le Trou Du Diable,Saison / Farmhouse Ale,6.0,4.01,264,Shawinigan,Quebec,saison
+68,Boogie Monster,Bellwoods Brewery,American Double / Imperial IPA,8.0,4.14,77,Toronto,Ontario,IPA
+69,Immoralité,Brasserie Dieu du Ciel!,American Double / Imperial IPA,9.2,4.24,50,Saint-Jérôme,Quebec,IPA
+70,Olde Deuteronomy,Alley Kat Brewing Company,American Barleywine,11.0,4.08,112,Edmonton,Alberta,barleywine
+71,La Fringante,Unibroue,Tripel,10.0,4.12,81,Chambly,Quebec,tripel
+72,Bounty Hunter,Bellwoods Brewery,American Porter,10.3,4.14,70,Toronto,Ontario,porter/stout
+73,Play Dead IPA,Yellow Dog Brewing,American IPA,6.8,4.14,65,Port Moody,British Columbia,IPA
+74,La Buteuse,Le Trou Du Diable,Tripel,10.0,4.01,173,Shawinigan,Quebec,tripel
+75,Dernière Volonté Réserve Spéciale En Fût De Pinot Noir,Brasserie Dieu du Ciel!,Belgian Strong Pale Ale,7.5,4.08,90,Saint-Jérôme,Quebec,other
+76,Hopnotist,Parallel 49 Brewing Company,American Double / Imperial IPA,8.5,4.17,56,Vancouver,British Columbia,IPA
+77,Farmhand Ale,Driftwood Brewery,Saison / Farmhouse Ale,5.5,4.01,169,Victoria,British Columbia,saison
+78,Dominus Vobiscum Saison,Microbrasserie Charlevoix,Saison / Farmhouse Ale,6.0,4.05,112,Baie-Saint-Paul,Quebec,saison
+79,Isseki Nicho,Brasserie Dieu du Ciel!,Saison / Farmhouse Ale,9.5,3.99,222,Saint-Jérôme,Quebec,saison
+80,Full Moon Pale Ale,Alley Kat Brewing Company,American Pale Ale (APA),5.0,4.05,111,Edmonton,Alberta,other
+81,Flying Monkeys Smashbomb Atomic IPA,Flying Monkeys Craft Brewery,American IPA,6.0,3.95,590,Barrie,Ontario,IPA
+82,Back Hand Of God Stout,Crannóg Ales,Irish Dry Stout,5.2,4.14,61,Sorrento,British Columbia,porter/stout
+83,Rhyme & Reason,Collective Arts Brewing,American Pale Ale (APA),5.7,3.99,187,Hamilton,Ontario,other
+84,Stranger Than Fiction,Collective Arts Brewing,English Porter,5.5,4.02,129,Hamilton,Ontario,porter/stout
+85,Nickel Brook Immodest,Nickel Brook Brewing Co.,American Double / Imperial IPA,9.5,4.09,75,Burlington,Ontario,IPA
+86,Twenty Pounder,Driftwood Brewery,American Double / Imperial IPA,9.0,4.07,83,Victoria,British Columbia,IPA
+87,State Of Mind,Collective Arts Brewing,American IPA,4.4,4.04,103,Hamilton,Ontario,IPA
+88,Shipwreck IPA,Lighthouse Brewing Company,American IPA,6.5,4.02,121,Victoria,British Columbia,IPA
+89,Blackstone Porter,Driftwood Brewery,English Porter,6.0,4.04,101,Victoria,British Columbia,porter/stout
+90,Four Winds IPA,Four Winds Brewing Co.,American IPA,7.0,4.06,82,Delta,British Columbia,IPA
+91,Déesse Nocturne,Brasserie Dieu du Ciel!,American Stout,5.0,4.11,61,Saint-Jérôme,Quebec,porter/stout
+92,Woolly Bugger,Howe Sound Inn & Brewing Company,English Barleywine,11.0,4.03,99,Squamish,British Columbia,barleywine
+93,Saison Brett,Les Trois Mousquetaires,Saison / Farmhouse Ale,7.5,4.11,60,Brossard,Quebec,saison
+94,Megadestroyer Imperial Licorice Stout,Howe Sound Inn & Brewing Company,American Double / Imperial Stout,10.0,3.99,141,Squamish,British Columbia,porter/stout
+95,Numbskull,Lighthouse Brewing Company,American Double / Imperial IPA,9.1,4.12,56,Victoria,British Columbia,IPA
+96,Red Racer Gingerhead Gingerbread Stout,Central City Brewers + Distillers,Irish Dry Stout,6.0,4.04,84,Surrey,British Columbia,porter/stout
+97,Solstice D'hiver,Brasserie Dieu du Ciel!,American Barleywine,10.2,3.91,921,Saint-Jérôme,Quebec,barleywine
+98,"Long, Dark Voyage To Uranus",Sawdust City Brewing Co.,Russian Imperial Stout,8.5,4.04,83,Gravenhurst,Ontario,porter/stout
+99,Amsterdam Tempest Imperial Stout,Amsterdam Brewing Company,Russian Imperial Stout,9.0,3.98,138,Toronto,Ontario,porter/stout
+100,Rigor Mortis Abt,Brasserie Dieu du Ciel!,Quadrupel (Quad),10.5,3.91,759,Saint-Jérôme,Quebec,belgian dark ales
