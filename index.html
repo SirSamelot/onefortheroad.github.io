@@ -21,10 +21,10 @@ description: "Data Analytics: it's dangerous to go alone"
 {% if paginator.total_pages > 1 %}
 <div class="pager">
     {% if paginator.previous_page %}
-    <a class="float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Older Posts</a>
+    <a class="float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
     {% endif %}
     {% if paginator.next_page %}
-    <a class="float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer Posts &rarr;</a>
+    <a class="float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
     {% endif %}
 </div>
 {% endif %}
