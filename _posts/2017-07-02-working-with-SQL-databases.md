@@ -183,6 +183,6 @@ mysql_engine.dispose()
 ### Resources
 - [MySQL Community Edition](https://www.mysql.com/products/community/)
 - MySQL [Employees](https://dev.mysql.com/doc/employee/en/) sample database
-- SQLAlchemy
-- PyMySQL
+- SQLAlchemy [documentation](https://docs.sqlalchemy.org/en/rel_1_1/)
+- PyMySQL [repo](https://github.com/PyMySQL/PyMySQL)
 - *pandas* [comparison with SQL](https://pandas.pydata.org/pandas-docs/stable/comparison_with_sql.html)
